@@ -1,0 +1,81 @@
+[
+    {
+     "Class":"Barbarian",
+     "subclass":"Battlerager",
+     "counters":[]
+    },
+    {
+     "Class":"Cleric",
+     "subclass":"Arcana",
+     "counters":[]
+    },
+    {
+     "Class":"Fighter",
+     "subclass":"Banneret",
+     "counters":[]
+    },
+    {
+     "Class":"Fighter",
+     "subclass":"Purple Dragon Knight",
+     "counters":[]
+    },
+    {
+     "Class":"Monk",
+     "subclass":"Long Death",
+     "counters":[]
+    },
+    {
+     "Class":"Paladin",
+     "subclass":"Crown",
+     "counters":[
+      {
+       "name":"Exalted Champion",
+       "level":20,
+       "value":1,
+       "reset":"long",
+       "display":"bubble",
+       "classLevel":"PaladinLevel",
+       "desc":"At 20th level, your presence on the field of battle is an inspiration to those dedicated to your cause. You can use your action to gain the following benefits for 1 hour:\n\n- You have resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons.\n- Your allies have advantage on death saving throws while within 30 feet of you.\n- You have advantage on Wisdom saving throws, as do your allies within 30 feet of you.\n\nThis effect ends early if you are incapacitated or die. Once you use this feature, you can't use it again until you finish a long rest."
+      }
+     ]
+    },
+    {
+     "Class":"Rogue",
+     "subclass":"Swashbuckler",
+     "counters":[
+      {
+       "name":"Master Duelist",
+       "level":17,
+       "value":1,
+       "reset":"short",
+       "display":"bubble",
+       "classLevel":"RogueLevel",
+       "desc":"Beginning at 17th level, your mastery of the blade lets you turn failure into success in combat. If you miss with an attack roll, you can roll it again with advantage. Once you do so, you can't use this feature again until you finish a short or long rest."
+      }
+     ]
+    },
+    {
+     "Class":"Warlock",
+     "subclass":"Undying",
+     "counters":[
+      {
+       "name":"Defy Death",
+       "level":6,
+       "value":1,
+       "reset":"long",
+       "display":"bubble",
+       "classLevel":"WarlockLevel",
+       "desc":"Starting at 6th level, you can give yourself vitality when you cheat death or when you help someone else cheat it. You can regain hit points equal to 1d8 + your Constitution modifier (minimum of 1 hit point) when you succeed on a death saving throw or when you stabilize a creature with spare the dying.\n\nOnce you use this feature, you can't use it again until you finish a long rest."
+      },
+      {
+       "name":"Indestructible Life",
+       "level":14,
+       "value":1,
+       "reset":"long",
+       "display":"bubble",
+       "classLevel":"WarlockLevel",
+       "desc":"When you reach 14th level, you partake of some of the true secrets of the Undying. On your turn, you can use a bonus action to regain hit points equal to 1d8 + your warlock level. Additionally, if you put a severed body part of yours back in place when you use this feature, the part reattaches.\n\nOnce you use this feature, you can't use it again until you finish a short or long rest."
+      }
+     ]
+    }
+   ]

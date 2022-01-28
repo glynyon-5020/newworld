@@ -1,0 +1,17 @@
+{
+  "bonePile": {
+    "title": "[name] uses Bone Pile!",
+    "desc": "When you are reduced to 0 hit points but not killed outright, you drop to 1 hit point instead. If you do, reduce yourself to a pile of bones, render yourself prone, and you are considered to be under the effects of a Feign Death spell. While subject to this condition, you are unable to move or take actions other than using an action to end this effect. You can't use this feature again until you finish a long rest.",
+    "cc": "Bone Pile",
+    "d": "-1[Healing]",
+    "effect": "Prone",
+    "fail": "True"
+  },
+  "unnaturalVitality": {
+    "title": "[name] uses Unnatural Vitality!",
+    "desc": "When you are reduced to 0 hit points, you may choose to stay conscious instead of falling unconscious. If you do, you gain temporary hit points equal to your total character level. In this state, you may take an action or bonus action on your turn, but not both, and you make death saving throws at the end of your turn as usual. You can remain in this state until you fail your first death saving throw, at which point you fall unconscious and continue as usual, or you die outright to massive damage. You can't use this feature again until you finish a long rest.",
+    "cc": "Unnatural Vitality",
+    "thp": "{level}",
+    "fail": "True"
+  }
+}

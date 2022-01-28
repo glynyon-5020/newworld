@@ -1,0 +1,469 @@
+[{
+    "name": "Wildemount Races",
+    "featureResources": "3b061a80-3e61-42ec-84e1-e2ad0b08fba6",
+    "counters": [],
+    "cvars": {
+        "race": "",
+        "speed": "30 ft.",
+        "languages": "Common",
+        "size": "Medium",
+        "creatureType": "Humanoid",
+        "resist": "",
+        "immune": "",
+        "cimmune": "",
+        "vuln": "",
+        "senses": ""
+    }
+},
+{
+    "name": "elf pallid",
+    "counters": [{
+        "name": "Sleep",
+        "reset": "long",
+        "level": 3,
+        "use": "racecast Sleep"
+    },
+    {
+        "name": "Invisibility",
+        "reset": "long",
+        "level": 5,
+        "use": "racecast Invisibility"
+    }],
+    "cvars": {
+        "race": "Pallid Elf",
+        "speed": "30 ft.",
+        "languages": "Common, Elvish",
+        "senses": "Darkvision 60 ft."
+    }
+},
+    {
+        "name":"dragonborn ravenite black",
+        "counters":[{
+        "name":"Breath Weapon",
+        "reset":"short",
+        "level":1,
+        "use":"use blackBreath [-t targets]"
+    },
+    {
+        "name": "Vengeful Assault",
+        "reset": "short",
+        "level": 1,
+        "use": "?"
+    }],
+      "cvars":{
+       "race":"Black Ravenite Dragonborn",
+       "languages":"Common, Draconic",
+       "senses": "Darkvision 60 ft."
+    }
+},
+    {
+        "name":"dragonborn ravenite blue",
+        "counters":[{
+        "name":"Breath Weapon",
+        "reset":"short",
+        "level":1,
+        "use":"use blueBreath [-t targets]"
+    },
+    {
+        "name": "Vengeful Assault",
+        "reset": "short",
+        "level": 1,
+        "use": "?"
+    }],
+      "cvars":{
+       "race":"Blue Ravenite Dragonborn",
+       "languages":"Common, Draconic",
+       "senses": "Darkvision 60 ft."
+    }
+},
+    {
+        "name":"dragonborn ravenite brass",
+        "counters":[{
+        "name":"Breath Weapon",
+        "reset":"short",
+        "level":1,
+        "use":"use brassBreath [-t targets]"
+    },
+    {
+        "name": "Vengeful Assault",
+        "reset": "short",
+        "level": 1,
+        "use": "?"
+    }],
+      "cvars":{
+       "race":"Brass Ravenite Dragonborn",
+       "languages":"Common, Draconic",
+       "senses": "Darkvision 60 ft."
+    }
+},
+    {
+        "name":"dragonborn ravenite bronze",
+        "counters":[{
+        "name":"Breath Weapon",
+        "reset":"short",
+        "level":1,
+        "use":"use bronzeBreath [-t targets]"
+    },
+    {
+        "name": "Vengeful Assault",
+        "reset": "short",
+        "level": 1,
+        "use": "?"
+    }],
+      "cvars":{
+       "race":"Bronze Ravenite Dragonborn",
+       "languages":"Common, Draconic",
+       "senses": "Darkvision 60 ft."
+    }
+},
+    {
+        "name":"dragonborn ravenite copper",
+        "counters":[{
+        "name":"Breath Weapon",
+        "reset":"short",
+        "level":1,
+        "use":"use copperBreath [-t targets]"
+    },
+    {
+        "name": "Vengeful Assault",
+        "reset": "short",
+        "level": 1,
+        "use": "?"
+    }],
+      "cvars":{
+       "race":"Copper Ravenite Dragonborn",
+       "languages":"Common, Draconic",
+       "senses": "Darkvision 60 ft."
+    }
+},
+    {
+        "name":"dragonborn ravenite gold",
+        "counters":[{
+        "name":"Breath Weapon",
+        "reset":"short",
+        "level":1,
+        "use":"use goldBreath [-t targets]"
+    },
+    {
+        "name": "Vengeful Assault",
+        "reset": "short",
+        "level": 1,
+        "use": "?"
+    }],
+      "cvars":{
+       "race":"Gold Ravenite Dragonborn",
+       "languages":"Common, Draconic",
+       "senses": "Darkvision 60 ft."
+    }
+},
+    {
+        "name":"dragonborn ravenite green",
+        "counters":[{
+        "name":"Breath Weapon",
+        "reset":"short",
+        "level":1,
+        "use":"use greenBreath [-t targets]"
+    },
+    {
+        "name": "Vengeful Assault",
+        "reset": "short",
+        "level": 1,
+        "use": "?"
+    }],
+      "cvars":{
+       "race":"Green Ravenite Dragonborn",
+       "languages":"Common, Draconic",
+       "senses": "Darkvision 60 ft."
+    }
+},
+    {
+        "name":"dragonborn ravenite red",
+        "counters":[{
+        "name":"Breath Weapon",
+        "reset":"short",
+        "level":1,
+        "use":"use redBreath [-t targets]"
+    },
+    {
+        "name": "Vengeful Assault",
+        "reset": "short",
+        "level": 1,
+        "use": "?"
+    }],
+      "cvars":{
+       "race":"Red Ravenite Dragonborn",
+       "languages":"Common, Draconic",
+       "senses": "Darkvision 60 ft."
+    }
+},
+    {
+        "name":"dragonborn ravenite silver",
+        "counters":[{
+        "name":"Breath Weapon",
+        "reset":"short",
+        "level":1,
+        "use":"use silverBreath [-t targets]"
+    },
+    {
+        "name": "Vengeful Assault",
+        "reset": "short",
+        "level": 1,
+        "use": "?"
+    }],
+      "cvars":{
+       "race":"Silver Ravenite Dragonborn",
+       "languages":"Common, Draconic",
+       "senses": "Darkvision 60 ft."
+    }
+},
+    {
+        "name":"dragonborn ravenite white",
+        "counters":[{
+        "name":"Breath Weapon",
+        "reset":"short",
+        "level":1,
+        "use":"use whiteBreath [-t targets]"
+    },
+    {
+        "name": "Vengeful Assault",
+        "reset": "short",
+        "level": 1,
+        "use": "?"
+    }],
+      "cvars":{
+       "race":"White Ravenite Dragonborn",
+       "languages":"Common, Draconic",
+       "senses": "Darkvision 60 ft."
+    }
+},
+    {
+        "name":"dragonborn draconblood black",
+        "counters":[{
+        "name":"Breath Weapon",
+        "reset":"short",
+        "level":1,
+        "use":"use blackBreath [-t targets]"
+    },
+    {
+        "name": "Forceful Presence",
+        "reset": "short",
+        "level": 1,
+        "use": "use draconForce"
+    }],
+      "cvars":{
+       "race":"Black Draconblood Dragonborn",
+       "languages":"Common, Draconic",
+       "senses": "Darkvision 60 ft."
+    }
+},
+    {
+        "name":"dragonborn draconblood blue",
+        "counters":[{
+        "name":"Breath Weapon",
+        "reset":"short",
+        "level":1,
+        "use":"use blueBreath [-t targets]"
+    },
+    {
+        "name": "Forceful Presence",
+        "reset": "short",
+        "level": 1,
+        "use": "use draconForce"
+    }],
+      "cvars":{
+       "race":"Blue Draconblood Dragonborn",
+       "languages":"Common, Draconic",
+       "senses": "Darkvision 60 ft."
+    }
+},
+    {
+        "name":"dragonborn draconblood brass",
+        "counters":[{
+        "name":"Breath Weapon",
+        "reset":"short",
+        "level":1,
+        "use":"use brassBreath [-t targets]"
+    },
+    {
+        "name": "Forceful Presence",
+        "reset": "short",
+        "level": 1,
+        "use": "use draconForce"
+    }],
+      "cvars":{
+       "race":"Brass Draconblood Dragonborn",
+       "languages":"Common, Draconic",
+       "senses": "Darkvision 60 ft."
+    }
+},
+    {
+        "name":"dragonborn draconblood bronze",
+        "counters":[{
+        "name":"Breath Weapon",
+        "reset":"short",
+        "level":1,
+        "use":"use bronzeBreath [-t targets]"
+    },
+    {
+        "name": "Forceful Presence",
+        "reset": "short",
+        "level": 1,
+        "use": "use draconForce"
+    }],
+      "cvars":{
+       "race":"Bronze Draconblood Dragonborn",
+       "languages":"Common, Draconic",
+       "senses": "Darkvision 60 ft."
+    }
+},
+    {
+        "name":"dragonborn draconblood copper",
+        "counters":[{
+        "name":"Breath Weapon",
+        "reset":"short",
+        "level":1,
+        "use":"use copperBreath [-t targets]"
+    },
+    {
+        "name": "Forceful Presence",
+        "reset": "short",
+        "level": 1,
+        "use": "use draconForce"
+    }],
+      "cvars":{
+       "race":"Copper Draconblood Dragonborn",
+       "languages":"Common, Draconic",
+       "senses": "Darkvision 60 ft."
+    }
+},
+    {
+        "name":"dragonborn draconblood gold",
+        "counters":[{
+        "name":"Breath Weapon",
+        "reset":"short",
+        "level":1,
+        "use":"use goldBreath [-t targets]"
+    },
+    {
+        "name": "Forceful Presence",
+        "reset": "short",
+        "level": 1,
+        "use": "use draconForce"
+    }],
+      "cvars":{
+       "race":"Gold Draconblood Dragonborn",
+       "languages":"Common, Draconic",
+       "senses": "Darkvision 60 ft."
+    }
+},
+    {
+        "name":"dragonborn draconblood green",
+        "counters":[{
+        "name":"Breath Weapon",
+        "reset":"short",
+        "level":1,
+        "use":"use greenBreath [-t targets]"
+    },
+    {
+        "name": "Forceful Presence",
+        "reset": "short",
+        "level": 1,
+        "use": "use draconForce"
+    }],
+      "cvars":{
+       "race":"Green Draconblood Dragonborn",
+       "languages":"Common, Draconic",
+       "senses": "Darkvision 60 ft."
+    }
+},
+    {
+        "name":"dragonborn draconblood red",
+        "counters":[{
+        "name":"Breath Weapon",
+        "reset":"short",
+        "level":1,
+        "use":"use redBreath [-t targets]"
+    },
+    {
+        "name": "Forceful Presence",
+        "reset": "short",
+        "level": 1,
+        "use": "use draconForce"
+    }],
+      "cvars":{
+       "race":"Red Draconblood Dragonborn",
+       "languages":"Common, Draconic",
+       "senses": "Darkvision 60 ft."
+    }
+},
+    {
+        "name":"dragonborn draconblood silver",
+        "counters":[{
+        "name":"Breath Weapon",
+        "reset":"short",
+        "level":1,
+        "use":"use silverBreath [-t targets]"
+    },
+    {
+        "name": "Forceful Presence",
+        "reset": "short",
+        "level": 1,
+        "use": "use draconForce"
+    }],
+      "cvars":{
+       "race":"Silver Draconblood Dragonborn",
+       "languages":"Common, Draconic",
+       "senses": "Darkvision 60 ft."
+    }
+},
+    {
+        "name":"dragonborn draconblood white",
+        "counters":[{
+        "name":"Breath Weapon",
+        "reset":"short",
+        "level":1,
+        "use":"use whiteBreath [-t targets]"
+    },
+    {
+        "name": "Forceful Presence",
+        "reset": "short",
+        "level": 1,
+        "use": "use draconForce"
+    }],
+      "cvars":{
+       "race":"White Draconblood Dragonborn",
+       "languages":"Common, Draconic",
+       "senses": "Darkvision 60 ft."
+    }
+},
+{
+    "name": "halfling lotusden",
+    "counters": [{
+        "name": "Entangle",
+        "reset": "long",
+        "level": 3,
+        "use": "racecast entangle"
+    },
+    {
+        "name": "Spike Growth",
+        "reset": "long",
+        "level": 5,
+        "use": "racecast spike"
+    }],
+    "cvars": {
+        "race": "Lotusden Halfling",
+        "speed": "25 ft.",
+        "size": "Small",
+        "languages": "Common, Halfling"
+    }
+},
+{
+    "name": "orc",
+    "cvars": {
+        "race": "Orc",
+        "speed": "30 ft.",
+        "languages": "Common, Ork",
+        "senses": "Darkvision 60 ft."
+    }
+}
+]

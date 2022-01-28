@@ -1,0 +1,52 @@
+[
+    {
+     "name":"Miscellaneous Races",
+     "featureResources":"",
+     "counters":[],
+     "cvars":{
+      "race":"",
+      "speed":"30 ft.",
+      "languages":"Common",
+      "size":"Medium",
+      "creatureType":"Humanoid",
+      "resist":"",
+      "immune":"",
+      "cimmune":"",
+      "vuln":"",
+      "senses":""
+     }
+    },
+    {
+     "name":"locathah",
+     "cvars":{
+      "race":"Locathah",
+      "speed":"30 ft., 30 ft. Swim",
+      "languages":"Common, Aquan"
+     }
+    },
+    {
+     "name":"tortle",
+     "cvars":{
+      "race":"Tortle",
+      "languages":"Common, Aquan"
+     }
+    },
+    {
+     "name":"grung",
+     "cvars":{
+      "race":"Grung",
+      "size":"Small",
+      "speed":"25 ft.",
+      "immune":"poison",
+      "languages":"Grung"
+     }
+    },
+    {
+     "name":"verdan",
+     "cvars":{
+      "race":"Verdan",
+      "size":"Small$5$Medium",
+      "languages":"Common, Goblin"
+     }
+    }
+   ]

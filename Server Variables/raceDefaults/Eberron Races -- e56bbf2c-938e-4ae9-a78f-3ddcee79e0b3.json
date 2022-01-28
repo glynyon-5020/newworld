@@ -1,0 +1,280 @@
+[
+    {
+     "name":"Eberron: Rising from the Last War Races",
+     "featureResources":"4df6c4b7-efd2-4903-8766-4dfcebcdd695",
+     "counters":[],
+     "cvars":{
+      "race":"",
+      "speed":"30 ft.",
+      "languages":"Common",
+      "size":"Medium",
+      "creatureType":"Humanoid",
+      "resist":"",
+      "immune":"",
+      "cimmune":"",
+      "vuln":"",
+      "senses":""
+     }
+    },
+    {
+     "name":"changeling",
+     "cvars":{
+      "race":"Changeling",
+      "languages":"Common| two extra languages of your choice"
+     }
+    },
+    {
+     "name":"bugbear",
+     "cvars":{
+      "race":"Bugbear",
+      "senses":"Darkvision 60 ft.",
+      "languages":"Common, Goblin"
+     }
+    },
+    {
+     "name":"dwarf house kundarak mark of warding",
+     "counters":[
+      {"name":"Alarm","reset":"long","level":1,"use":"racecast alarm"},
+      {"name":"Mage Armor","reset":"long","level":1,"use":"racecast 'mage armor' -t <target>"},
+      {"name":"Arcane Lock","reset":"long","level":3,"use":"racecast 'arcane lock'"}
+     ],
+     "cvars":{
+      "race":"Mark of Warding Dwarf",
+      "speed":"25 ft.",
+      "resist":"Poison",
+      "languages":"Common, Dwarvish",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"elf mark of shadow house phiarlan thuranni",
+     "counters":[
+      {"name":"Invisibility","reset":"long","level":1,"use":"racecast invisibility"}
+     ],
+     "cvars":{
+      "race":"Mark of Shadow Elf",
+      "languages":"Common, Elvish",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"gnome mark of scribing house sivis",
+     "counters":[
+      {"name":"Comprehend Languages","reset":"short","level":1,"use":"racecast 'comprehend languages'"},
+      {"name":"Magic Mouth","reset":"long","level":3,"use":"racecast 'magic mouth'"}
+     ],
+     "cvars":{
+      "race":"Mark of Scribing Gnome",
+      "speed":"25 ft.",
+      "languages":"Common, Gnomish",
+      "size":"Small",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"goblin",
+     "counters":[
+      {"name":"Fury of the Small","reset":"short","level":1,"use":"use goblinFury -t <target>"}
+     ],
+     "cvars":{
+      "race":"Goblin",
+      "languages":"Common, Goblin",
+      "senses":"Darkvision 60 ft."
+      }
+    },
+    {
+     "name":"halfling mark of healing house jorasco",
+     "counters":[
+      {"name":"Cure Wounds","reset":"long","level":1,"use":"racecast 'cure wounds' [-t target]"},
+      {"name":"Lesser Restoration","reset":"long","level":3,"use":"racecast 'lesser restoration' [-t target]"}
+     ],
+     "cvars":{
+      "race":"Mark of Healing Halfling",
+      "speed":"25 ft.",
+      "languages":"Common, Halfling",
+      "size":"Small"
+     }
+    },
+    {
+     "name":"halfling mark of hospitality house ghallanda",
+     "counters":[
+      {"name":"Purify Food and Drink","reset":"long","level":1,"use":"racecast 'purify food and drink'"},
+      {"name":"Unseen Servant","reset":"long","level":3,"use":"racecast 'unseen servant'"}
+     ],
+     "cvars":{
+      "race":"Mark of Hospitality Halfling",
+      "speed":"25 ft.",
+      "languages":"Common, Halfling",
+      "size":"Small"
+     }
+    },
+    {
+     "name":"half-elf mark of detection house medani",
+     "counters":[
+      {"name":"Detect Magic","reset":"long","level":1,"use":"racecast 'detect magic'"},
+      {"name":"Detect Poison and Disease","reset":"long","level":1,"use":"racecast 'detect poison and disease'"},
+      {"name":"See Invisibility","reset":"long","level":3,"use":"racecast 'see invisibility'"}
+     ],
+     "cvars":{
+      "race":"Mark of Detection Half-Elf",
+      "languages":"Common, Elvish| one extra language of your choice",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"half-elf mark of storm house lyrandar",
+     "counters":[
+      {"name":"Gust of Wind","reset":"long","level":3,"use":"racecast 'Gust of Wind' [-t target]"}
+     ],
+     "cvars":{
+      "race":"Mark of Storm Half-Elf",
+      "speed":"30 ft., swim 30 ft.",
+      "resist":"Lightning",
+      "languages":"Common, Elvish| one extra language of your choice",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"half-orc mark of finding house tharashk",
+     "counters":[
+      {"name":"Hunter's Mark","reset":"long","level":1,"use":"racecast \\\"hunter's mark\\\" -t <target>"},
+      {"name":"Locate Object","reset":"long","level":1,"use":"racecast 'locate object'"}
+     ],
+     "cvars":{
+      "race":"Mark of Finding Half-Orc",
+      "languages":"Common, Goblin",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"hobgoblin",
+     "counters":[
+      {"name":"Saving Face","reset":"short","level":1,"use":"use hobgoblinFace  -n <# of allies>"}
+     ],
+     "cvars":{
+      "race":"Hobgoblin",
+      "languages":"Common, Goblin",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"human mark of finding house tharashk",
+     "counters":[
+      {"name":"Hunter's Mark","reset":"long","level":1,"use":"racecast \\\"hunter's mark\\\" -t <target>"},
+      {"name":"Locate Object","reset":"long","level":1,"use":"racecast 'locate object'"}
+     ],
+     "cvars":{
+      "race":"Mark of Finding Human",
+      "senses":"Darkvision 60 ft.",
+      "languages":"Common, Goblin"
+     }
+    },
+    {
+     "name":"human mark of handling house vadalis",
+     "counters":[
+      {"name":"Animal Friendship","reset":"short","level":1,"use":"racecast \\\"Animal Friendship\\\" [-t target]"},
+      {"name":"Speak with Animals","reset":"short","level":1,"use":"racecast \\\"Speak with Animals\\\""}
+     ],
+     "cvars":{
+      "race":"Mark of Handling Human",
+      "languages":"Common| one extra language of your choice"
+     }
+    },
+    {
+     "name":"human mark of making house cannith",
+     "counters":[
+      {"name":"Magic Weapon","reset":"long","level":1,"use":"racecast 'magic weapon'"}
+     ],
+     "cvars":{
+      "race":"Mark of Making Human",
+      "languages":"Common| one extra language of your choice"
+     }
+    },
+    {
+     "name":"human mark of passage house orien",
+     "counters":[
+      {"name":"Misty Step","reset":"long","level":1,"use":"racecast 'misty step'"}
+     ],
+     "cvars":{
+      "race":"Mark of Passage Human",
+      "speed":"35 ft.",
+      "languages":"Common| one extra language of your choice"
+     }
+    },
+    {
+     "name":"human mark of sentinel house deneith",
+     "counters":[
+      {"name":"Shield","reset":"short","level":1,"use":"racecast Shield [-di damageIncoming#]"},
+      {"name":"Vigilant Guardian","reset":"long","level":1,"use":"use something I haven't made yet because it's a stupid ability to automate."}
+     ],
+     "cvars":{
+      "race":"Mark of Sentinel Human",
+      "languages":"Common| one extra language of your choice"
+     }
+    },
+    {
+     "name":"kalashtar",
+     "cvars":{
+      "race":"Kalashtar",
+      "languages":"Common, Quori| one extra language of your choice"
+     }
+    },
+    {
+     "name":"orc eberron",
+     "cvars":{
+      "race":"Orc",
+      "languages":"Common, Orc",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"shifter beasthide",
+     "counters":[
+      {"name":"Shifting","reset":"short","level":1,"use":"use shifterBeasthide"}
+     ],
+     "cvars":{
+      "race":"Beasthide Shifter",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"shifter longtooth",
+     "counters":[
+      {"name":"Shifting","reset":"short","level":1,"use":"use shifterLongtooth"}
+     ],
+     "cvars":{
+      "race":"Longtooth Shifter",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"shifter swiftstride",
+     "counters":[
+      {"name":"Shifting","reset":"short","level":1,"use":"use shifterSwiftstride"}
+     ],
+     "cvars":{
+      "race":"Swiftstride Shifter",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"shifter wildhunt",
+     "counters":[
+      {"name":"Shifting","reset":"short","level":1,"use":"use shifterWildhunt"},
+      {"name":"Mark the Scent","reset":"short","level":1,"use":"use shifterScent [-t target]"}
+     ],
+     "cvars":{
+      "race":"Wildhunt Shifter",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"warforged",
+     "cvars":{
+      "race":"Warforged",
+      "resist":"Poison",
+      "cimmune":"Disease",
+      "languages":"Common| one extra language of your choice"
+     }
+    }
+   ]

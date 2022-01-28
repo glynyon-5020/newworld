@@ -1,0 +1,1454 @@
+[
+    {
+     "name":"All Published Races",
+     "featureResources":"4df6c4b7-efd2-4903-8766-4dfcebcdd695",
+     "counters":[],
+     "cvars":{
+      "race":"",
+      "speed":"30 ft.",
+      "languages":"Common",
+      "size":"Medium",
+      "creatureType":"Humanoid",
+      "resist":"",
+      "immune":"",
+      "cimmune":"",
+      "vuln":"",
+      "senses":""
+     }
+    },
+    {
+     "name":"dragonborn black",
+     "counters":[
+      {"name":"Breath Weapon","reset":"short","level":1,"use":"use blackBreath [-t targets]"}
+     ],
+     "cvars":{
+      "race":"Black Dragonborn",
+      "resist":"Acid",
+      "languages":"Common, Draconic"
+     }
+    },
+    {
+     "name":"dragonborn blue",
+     "counters":[
+      {"name":"Breath Weapon","reset":"short","level":1,"use":"use blueBreath [-t targets]"}
+     ],
+     "cvars":{
+      "race":"Blue Dragonborn",
+      "resist":"Lightning",
+      "languages":"Common, Draconic"
+     }
+    },
+    {
+     "name":"dragonborn brass",
+     "counters":[
+      {"name":"Breath Weapon","reset":"short","level":1,"use":"use brassBreath [-t targets]"}
+     ],
+     "cvars":{
+      "race":"Brass Dragonborn",
+      "resist":"Fire",
+      "languages":"Common, Draconic"
+     }
+    },
+    {
+     "name":"dragonborn bronze",
+     "counters":[
+      {"name":"Breath Weapon","reset":"short","level":1,"use":"use bronzeBreath [-t targets]"}
+     ],
+     "cvars":{
+      "race":"Bronze Dragonborn",
+      "resist":"Lightning",
+      "languages":"Common, Draconic"
+     }
+    },
+    {
+     "name":"dragonborn copper",
+     "counters":[
+      {"name":"Breath Weapon","reset":"short","level":1,"use":"use copperBreath [-t targets]"}
+     ],
+     "cvars":{
+      "race":"Copper Dragonborn",
+      "resist":"Acid",
+      "languages":"Common, Draconic"
+     }
+    },
+    {
+     "name":"dragonborn gold",
+     "counters":[
+      {"name":"Breath Weapon","reset":"short","level":1,"use":"use goldBreath [-t targets]"}
+     ],
+     "cvars":{
+      "race":"Gold Dragonborn",
+      "resist":"Fire",
+      "languages":"Common, Draconic"
+     }
+    },
+    {
+     "name":"dragonborn green",
+     "counters":[
+      {"name":"Breath Weapon","reset":"short","level":1,"use":"use greenBreath [-t targets]"}
+     ],
+     "cvars":{
+      "race":"Green Dragonborn",
+      "resist":"Poison",
+      "languages":"Common, Draconic"
+     }
+    },
+    {
+     "name":"dragonborn red",
+     "counters":[
+      {"name":"Breath Weapon","reset":"short","level":1,"use":"use redBreath [-t targets]"}
+     ],
+     "cvars":{
+      "race":"Red Dragonborn",
+      "resist":"Fire",
+      "languages":"Common, Draconic"
+     }
+    },
+    {
+     "name":"dragonborn silver",
+     "counters":[
+      {"name":"Breath Weapon","reset":"short","level":1,"use":"use silverBreath [-t targets]"}
+     ],
+     "cvars":{
+      "race":"Silver Dragonborn",
+      "resist":"Cold",
+      "languages":"Common, Draconic"
+     }
+    },
+    {
+     "name":"dragonborn white",
+     "counters":[
+      {"name":"Breath Weapon","reset":"short","level":1,"use":"use whiteBreath [-t targets]"}
+     ],
+     "cvars":{
+      "race":"White Dragonborn",
+      "resist":"Cold",
+      "languages":"Common, Draconic"
+     }
+    },
+    {
+     "name":"dwarf hill",
+     "cvars":{
+      "race":"Hill Dwarf",
+      "speed":"25 ft.",
+      "resist":"Poison",
+      "languages":"Common, Dwarvish",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"dwarf mountain",
+     "cvars":{
+      "race":"Mountain Dwarf",
+      "speed":"25 ft.",
+      "resist":"Poison",
+      "languages":"Common, Dwarvish",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"elf high",
+     "cvars":{
+      "race":"High Elf",
+      "languages":"Common, Elvish",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"elf wood",
+     "cvars":{
+      "race":"Wood Elf",
+      "speed":"35 ft.",
+      "languages":"Common, Elvish",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"elf drow dark",
+     "counters":[
+      {"name":"Faerie Fire","reset":"long","level":3,"use":"racecast 'Faerie Fire' [-t targets]"},
+      {"name":"Darkness","reset":"long","level":5,"use":"racecast Darkness"}
+     ],
+     "cvars":{
+      "race":"Drow",
+      "languages":"Common, Elvish, Undercommon",
+      "senses":"Darkvision 120 ft."
+     }
+    },
+    {
+     "name":"gnome forest",
+     "cvars":{
+      "race":"Forest Gnome",
+      "speed":"25 ft.",
+      "languages":"Common, Gnomish",
+      "size":"Small",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"gnome rock",
+     "cvars":{
+      "race":"Rock Gnome",
+      "speed":"25 ft.",
+      "languages":"Common, Gnomish",
+      "size":"Small",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"halfling lightfoot",
+     "cvars":{
+      "race":"Lightfoot Halfling",
+      "speed":"25 ft.",
+      "languages":"Common, Halfling",
+      "size":"Small"
+     }
+    },
+    {
+     "name":"halfling stout",
+     "cvars":{
+      "race":"Stout Halfling",
+      "speed":"25 ft.",
+      "resist":"Poison",
+      "languages":"Common, Halfling",
+      "size":"Small"
+     }
+    },
+    {
+     "name":"half-elf",
+     "cvars":{
+      "race":"Half-Elf",
+      "languages":"Common, Elvish| one extra language of your choice",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"half-orc",
+     "counters":[
+      {"name":"Relentless Endurance","reset":"long","level":1,"use":"use horcEndurance"}
+     ],
+     "cvars":{
+      "race":"Half-Orc",
+      "languages":"Common, Orc",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"human variant",
+     "cvars":{
+      "race":"Human",
+      "languages":"Common| one extra language of your choice"
+     }
+    },
+    {
+     "name":"tiefling",
+     "counters":[
+      {"name":"Hellish Rebuke","reset":"long","level":3,"use":"racecast 'Hellish Rebuke' [-t target]"},
+      {"name":"Darkness","reset":"long","level":5,"use":"racecast Darkness"}
+     ],
+     "cvars":{
+      "race":"Tiefling",
+      "resist":"Fire",
+      "languages":"Common, Infernal",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"aasimar protector",
+     "counters":[
+      {"name":"Healing Hands","reset":"long","level":1,"use":"use aasimarHands [-t target]"},
+      {"name":"Radiant Soul","reset":"long","level":3,"use":"use aasimarSoul` — Suggested Snippet: `!snippet radiant -d1 {level}[radiant] -f 'Radiant Soul|Once on each of your turns, you can deal {level} extra radiant damage to one target when you deal damage to it with an attack or a spell.'"}
+     ],
+     "cvars":{
+      "race":"Protector Aasimar",
+      "resist":"Necrotic, Radiant",
+      "languages":"Common, Celestial",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"aasimar scourge",
+     "counters":[
+      {"name":"Healing Hands","reset":"long","level":1,"use":"use aasimarHands [-t target]"},
+      {"name":"Radiant Consumption","reset":"long","level":3,"use":"use aasimarConsumption` — Suggested Snippet: `!snippet radiant -d1 {level}[radiant] -f 'Radiant Consumption|Once on each of your turns, you can deal {level} extra radiant damage to one target when you deal damage to it with an attack or a spell.'`\n**End of Turn Effect:** `!use aasimarSear [-t targets]"}
+     ],
+     "cvars":{
+      "race":"Scourge Aasimar",
+      "resist":"Necrotic, Radiant",
+      "languages":"Common, Celestial",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"aasimar fallen",
+     "counters":[
+      {"name":"Healing Hands","reset":"long","level":1,"use":"use aasimarHands [-t target]"},
+      {"name":"Necrotic Shroud","reset":"long","level":3,"use":"use aasimarShroud [-t targets]` — Suggested Snippet: `!snippet shroud -d1 {level}[necrotic] -f 'Necrotic Shroud|Once on each of your turns, you can deal {level} extra necrotic damage to one target when you deal damage to it with an attack or a spell.'"}
+     ],
+     "cvars":{
+      "race":"Fallen Aasimar",
+      "resist":"Necrotic, Radiant",
+      "languages":"Common, Celestial",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"bugbear",
+     "cvars":{
+      "race":"Bugbear",
+      "languages":"Common, Goblin",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"firbolg",
+     "counters":[
+      {"name":"Detect Magic","reset":"short","level":1,"use":"racecast 'Detect Magic'"},
+      {"name":"Disguise Self","reset":"short","level":1,"use":"racecast 'Disguise Self'"},
+      {"name":"Hidden Step","reset":"short","level":1,"use":"use firbolgHidden"}
+     ],
+     "cvars":{
+      "race":"Firbolg",
+      "languages":"Common, Elvish, Giant"
+     }
+    },
+    {
+     "name":"goblin",
+     "counters":[
+      {"name":"Fury of the Small","reset":"short","level":1,"use":"use goblinFury [-t target]"}
+     ],
+     "cvars":{
+      "race":"Goblin",
+      "languages":"Common, Goblin",
+      "size":"Small",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"goliath",
+     "counters":[
+      {"name":"Stone's Endurance","reset":"short","level":1,"use":"use goliathStone [-n damageTaken#]"}
+     ],
+     "cvars":{
+      "race":"Goliath",
+      "languages":"Common, Giant"
+     }
+    },
+    {
+     "name":"orc",
+     "cvars":{
+      "race":"Orc",
+      "languages":"Common, Orc",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"hobgoblin",
+     "counters":[
+      {"name":"Saving Face","reset":"short","level":1,"use":"use hobgoblinFace  -n <# of allies>"}
+     ],
+     "cvars":{
+      "race":"Hobgoblin",
+      "languages":"Common, Goblin",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"kenku",
+     "cvars":{
+      "race":"Kenku",
+      "languages":"Common, Auran| you can speak only by using your Mimicry trait."
+     }
+    },
+    {
+     "name":"kobold",
+     "counters":[
+      {"name":"Grovel, Cower, and Beg","reset":"short","level":1,"use":"use koboldGrovel [-t targets]"}
+     ],
+     "cvars":{
+      "race":"Kobold",
+      "languages":"Common, Draconic",
+      "size":"Small",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"lizardfolk",
+     "counters":[
+      {"name":"Hungry Jaws","reset":"short","level":1,"use":"use lizardJaws` after you successfully hit with your `!attack"}
+     ],
+     "cvars":{
+      "race":"Lizardfolk",
+      "speed":"30 ft., swim 30 ft.",
+      "languages":"Common, Draconic"
+     }
+    },
+    {
+     "name":"tabaxi",
+     "cvars":{
+      "race":"Tabaxi",
+      "speed":"30 ft., climb 20 ft.",
+      "senses":"Darkvision 60 ft.",
+      "languages":"Common| one extra language of your choice"
+     }
+    },
+    {
+     "name":"tortle",
+     "cvars":{
+      "race":"Tortle",
+      "languages":"Common"
+     }
+    },
+    {
+     "name":"triton",
+     "counters":[
+      {"name":"Fog Cloud","reset":"long","level":1,"use":"racecast 'Fog Cloud'"},
+      {"name":"Gust of Wind","reset":"long","level":3,"use":"racecast 'Gust of Wind' [-t targets]"},
+      {"name":"Wall of Water","reset":"long","level":5,"use":"racecast 'Wall of Water'†"}
+     ],
+     "cvars":{
+      "race":"Triton",
+      "speed":"30 ft., swim 30 ft.",
+      "resist":"Cold",
+      "languages":"Common, Primordial"
+     }
+    },
+    {
+     "name":"yuan-ti pureblood yuanti",
+     "counters":[
+      {"name":"Suggestion","reset":"long","level":3,"use":"racecast Suggestion [-t target]"}
+     ],
+     "cvars":{
+      "race":"Yuan-ti Pureblood",
+      "immune":"Poison",
+      "languages":"Common, Abyssal, Draconic",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"dwarf grey gray duergar deep",
+     "counters":[
+      {"name":"Enlarge","reset":"long","level":3,"use":"racecast Enlarge"},
+      {"name":"Invisibility","reset":"long","level":5,"use":"racecast Invisibility"}
+     ],
+     "cvars":{
+      "race":"Duergar",
+      "speed":"25 ft.",
+      "resist":"Poison",
+      "languages":"Common, Dwarvish, Undercommon",
+      "senses":"Darkvision 120 ft."
+     }
+    },
+    {
+     "name":"elf eladrin",
+     "counters":[
+      {"name":"Fey Step","reset":"short","level":1,"use":"use eladrinAutumn [-t targets]|!use eladrinSpring|!use eladrinSummer [-t targets]|!use eladrinWinter [-t targets]"}
+     ],
+     "cvars":{
+      "race":"Eladrin",
+      "languages":"Common, Elvish",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"elf sea",
+     "cvars":{
+      "race":"Sea Elf",
+      "speed":"30 ft., swim 30 ft.",
+      "languages":"Common, Elvish, Aquan",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"elf shadar-kai",
+     "counters":[
+      {"name":"Blessing of the Raven Queen","reset":"long","level":1,"use":"use shadarkaiBlessing"}
+     ],
+     "cvars":{
+      "race":"Shadar-Kai",
+      "resist":"Necrotic",
+      "languages":"Common, Elvish",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"githyanki",
+     "counters":[
+      {"name":"Jump","reset":"long","level":3,"use":"racecast Jump -t <target>"},
+      {"name":"Misty Step","reset":"long","level":5,"use":"racecast 'Misty Step'"}
+     ],
+     "cvars":{
+      "race":"Githyanki",
+      "languages":"Common, Gith"
+     }
+    },
+    {
+     "name":"githzerai",
+     "counters":[
+      {"name":"Shield","reset":"long","level":3,"use":"racecast Shield [-di damageIncoming#]"},
+      {"name":"Detect Thoughts","reset":"long","level":5,"use":"racecast 'Detect Thoughts' [-t target]"}
+     ],
+     "cvars":{
+      "race":"Githzerai",
+      "languages":"Common, Gith"
+     }
+    },
+    {
+     "name":"gnome deep svirfneblin",
+     "cvars":{
+      "race":"Svirfneblin",
+      "speed":"25 ft.",
+      "languages":"Common, Gnomish, Undercommon",
+      "size":"Small",
+      "senses":"Darkvision 120 ft."
+     }
+    },
+    {
+     "name":"tiefling asmodeus",
+     "counters":[
+      {"name":"Hellish Rebuke","reset":"long","level":3,"use":"racecast 'Hellish Rebuke' [-t target]"},
+      {"name":"Darkness","reset":"long","level":5,"use":"racecast Darkness"}
+     ],
+     "cvars":{
+      "race":"Asmodeus Tiefling",
+      "resist":"Fire",
+      "languages":"Common, Infernal",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"tiefling baalzebul",
+     "counters":[
+      {"name":"Ray of Sickness","reset":"long","level":3,"use":"racecast 'Ray of Sickness' [-t target]"},
+      {"name":"Crown of Madness","reset":"long","level":5,"use":"racecast 'Crown of Madness' [-t target]"}
+     ],
+     "cvars":{
+      "race":"Baalzebul Tiefling",
+      "resist":"Fire",
+      "languages":"Common, Infernal",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"tiefling dispater",
+     "counters":[
+      {"name":"Disguise Self","reset":"long","level":3,"use":"racecast 'Disguise Self'"},
+      {"name":"Detect Thoughts","reset":"long","level":5,"use":"racecast 'Detect Thoughts' [-t target]"}
+     ],
+     "cvars":{
+      "race":"Dispater Tiefling",
+      "resist":"Fire",
+      "languages":"Common, Infernal",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"tiefling fierna",
+     "counters":[
+      {"name":"Charm Person","reset":"long","level":3,"use":"racecast Charm [-t target]"},
+      {"name":"Suggestion","reset":"long","level":5,"use":"racecast Suggestion [-t target]"}
+     ],
+     "cvars":{
+      "race":"Fierna Tiefling",
+      "resist":"Fire",
+      "languages":"Common, Infernal",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"tiefling glasya",
+     "counters":[
+      {"name":"Disguise Self","reset":"long","level":3,"use":"racecast 'Disguise Self'"},
+      {"name":"Invisibility","reset":"long","level":5,"use":"racecast Invisibility [-t target]"}
+     ],
+     "cvars":{
+      "race":"Glasya Tiefling",
+      "resist":"Fire",
+      "languages":"Common, Infernal",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"tiefling levistus",
+     "counters":[
+      {"name":"Armor of Agathys","reset":"long","level":3,"use":"racecast 'Armor of Agathys'†"},
+      {"name":"Darkness","reset":"long","level":5,"use":"racecast Darkness"}
+     ],
+     "cvars":{
+      "race":"Levistus Tiefling",
+      "resist":"Fire",
+      "languages":"Common, Infernal",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"tiefling mammon",
+     "counters":[
+      {"name":"Tenser's Floating Disk","reset":"long","level":3,"use":"racecast 'Floating Disk'"},
+      {"name":"Arcane Lock","reset":"long","level":5,"use":"racecast 'Arcane Lock'"}
+     ],
+     "cvars":{
+      "race":"Mammon Tiefling",
+      "resist":"Fire",
+      "languages":"Common, Infernal",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"tiefling mephistopheles",
+     "counters":[
+      {"name":"Burning Hands","reset":"long","level":3,"use":"racecast 'Burning Hands' [-t targets]"},
+      {"name":"Flame Blade","reset":"long","level":5,"use":"racecast 'Flame Blade'"}
+     ],
+     "cvars":{
+      "race":"Mephistopheles Tiefling",
+      "resist":"Fire",
+      "languages":"Common, Infernal",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"tiefling zariel",
+     "counters":[
+      {"name":"Searing Smite","reset":"long","level":3,"use":"racecast 'Searing Smite'† [-t target]"},
+      {"name":"Branding Smite","reset":"long","level":5,"use":"racecast 'Branding Smite' [-t target]"}
+     ],
+     "cvars":{
+      "race":"Zariel Tiefling",
+      "resist":"Fire",
+      "languages":"Common, Infernal",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"aarakocra",
+     "cvars":{
+      "race":"Aarakocra",
+      "speed":"25 ft., fly 50 ft.",
+      "languages":"Common, Aarakocra, Auran"
+     }
+    },
+    {
+     "name":"genasi air",
+     "counters":[
+      {"name":"Levitate","reset":"long","level":1,"use":"racecast Levitate [-t target] [fail]"}
+     ],
+     "cvars":{
+      "race":"Air Genasi",
+      "languages":"Common, Primordial"
+     }
+    },
+    {
+     "name":"genasi earth",
+     "counters":[
+      {"name":"Pass Without Trace","reset":"long","level":1,"use":"racecast 'Pass Without Trace' [-t targets]"}
+     ],
+     "cvars":{
+      "race":"Earth Genasi",
+      "languages":"Common, Primordial"
+     }
+    },
+    {
+     "name":"genasi fire",
+     "counters":[
+      {"name":"Burning Hands","reset":"long","level":3,"use":"racecast 'Burning Hands' [-t targets]"}
+     ],
+     "cvars":{
+      "race":"Fire Genasi",
+      "resist":"Fire",
+      "languages":"Common, Primordial",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"genasi water",
+     "counters":[
+      {"name":"Create or Destroy Water","reset":"long","level":1,"use":"racecast 'Create or Destroy Water'"}
+     ],
+     "cvars":{
+      "race":"Water Genasi",
+      "speed":"30 ft., swim 30 ft.",
+      "resist":"Acid",
+      "languages":"Common, Primordial"
+     }
+    },
+    {
+     "name":"gnome deep svirfneblin",
+     "cvars":{
+      "race":"Svirfneblin",
+      "speed":"25 ft.",
+      "languages":"Common, Gnomish, Undercommon",
+      "size":"Small",
+      "senses":"Darkvision 120 ft."
+     }
+    },
+    {
+     "name":"halfling ghostwise",
+     "cvars":{
+      "race":"Ghostwise Halfling",
+      "speed":"25 ft.",
+      "languages":"Common, Halfling",
+      "size":"Small"
+     }
+    },
+    {
+     "name":"half-elf high cantrip weapon training",
+     "cvars":{
+      "race":"High Half-Elf",
+      "languages":"Common, Elvish| one extra language of your choice",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"half-elf wood weapon training fleet of foot mask the wild",
+     "cvars":{
+      "race":"Wood Half-Elf",
+      "languages":"Common, Elvish| one extra language of your choice",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"half-elf drow half-drow",
+     "counters":[
+      {"name":"Faerie Fire","reset":"long","level":3,"use":"racecast 'Faerie Fire' [-t targets]"},
+      {"name":"Darkness","reset":"long","level":5,"use":"racecast Darkness"}
+     ],
+     "cvars":{
+      "race":"Half-Drow",
+      "languages":"Common, Elvish| one extra language of your choice",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"half-elf sea aquatic",
+     "cvars":{
+      "race":"Aquatic Half-Elf",
+      "speed":"30 ft., swim 30 ft.",
+      "languages":"Common, Elvish| one extra language of your choice",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"tiefling devil's tongue devils",
+     "counters":[
+      {"name":"Charm Person","reset":"long","level":3,"use":"racecast Charm [-t target]"},
+      {"name":"Enthrall","reset":"long","level":5,"use":"racecast Enthrall [-t target]"}
+     ],
+     "cvars":{
+      "race":"Devil's Tongue Tiefling",
+      "resist":"Fire",
+      "languages":"Common, Infernal",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"tiefling hellfire",
+     "counters":[
+      {"name":"Burning Hands","reset":"long","level":3,"use":"racecast 'Burning Hands' [-t targets]"},
+      {"name":"Darkness","reset":"long","level":5,"use":"racecast Darkness"}
+     ],
+     "cvars":{
+      "race":"Hellfire Tiefling",
+      "resist":"Fire",
+      "languages":"Common, Infernal",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"tiefling winged",
+     "cvars": {
+      "race":"Winged Tiefling",
+      "speed":"30 ft., fly 30 ft.",
+      "resist":"Fire",
+      "languages":"Common, Infernal",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"tiefling feral",
+     "counters":[
+      {"name":"Hellish Rebuke","reset":"long","level":3,"use":"racecast 'Hellish Rebuke' [-t target]"},
+      {"name":"Darkness","reset":"long","level":5,"use":"racecast Darkness"}
+     ],
+     "cvars":{
+      "race":"Feral Tiefling",
+      "resist":"Fire",
+      "languages":"Common, Infernal",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"tiefling feral devil's tongue devils",
+     "counters":[
+      {"name":"Charm Person","reset":"long","level":3,"use":"racecast Charm [-t target]"},
+      {"name":"Enthrall","reset":"long","level":5,"use":"racecast Enthrall [-t target]"}
+     ],
+     "cvars":{
+      "race":"Feral Devil's Tongue Tiefling",
+      "resist":"Fire",
+      "languages":"Common, Infernal",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"tiefling feral hellfire",
+     "counters":[
+      {"name":"Burning Hands","reset":"long","level":3,"use":"racecast 'Burning Hands' [-t targets]"},
+      {"name":"Darkness","reset":"long","level":5,"use":"racecast Darkness"}
+     ],
+     "cvars":{
+      "race":"Feral Hellfire Tiefling",
+      "resist":"Fire",
+      "languages":"Common, Infernal",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"tiefling feral winged",
+     "cvars":{
+      "race":"Feral Winged Tiefling",
+      "speed":"30 ft., fly 30 ft.",
+      "resist":"Fire",
+      "languages":"Common, Infernal",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"changeling",
+     "cvars":{
+      "race":"Changeling",
+      "languages":"Common| two extra languages of your choice"
+     }
+    },
+    {
+     "name":"bugbear",
+     "cvars":{
+      "race":"Bugbear",
+      "senses":"Darkvision 60 ft.",
+      "languages":"Common, Goblin"
+     }
+    },
+    {
+     "name":"dwarf house kundarak mark of warding",
+     "counters":[
+      {"name":"Alarm","reset":"long","level":1,"use":"racecast alarm"},
+      {"name":"Mage Armor","reset":"long","level":1,"use":"racecast 'mage armor' -t <target>"},
+      {"name":"Arcane Lock","reset":"long","level":3,"use":"racecast 'arcane lock'"}
+     ],
+     "cvars":{
+      "race":"Mark of Warding Dwarf",
+      "speed":"25 ft.",
+      "resist":"Poison",
+      "languages":"Common, Dwarvish",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"elf mark of shadow house phiarlan thuranni",
+     "counters":[
+      {"name":"Invisibility","reset":"long","level":1,"use":"racecast invisibility"}
+     ],
+     "cvars":{
+      "race":"Mark of Shadow Elf",
+      "languages":"Common, Elvish",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"gnome mark of scribing house sivis",
+     "counters":[
+      {"name":"Comprehend Languages","reset":"short","level":1,"use":"racecast 'comprehend languages'"},
+      {"name":"Magic Mouth","reset":"long","level":3,"use":"racecast 'magic mouth'"}
+     ],
+     "cvars":{
+      "race":"Mark of Scribing Gnome",
+      "speed":"25 ft.",
+      "languages":"Common, Gnomish",
+      "size":"Small",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"goblin",
+     "counters":[
+      {"name":"Fury of the Small","reset":"short","level":1,"use":"use goblinFury -t <target>"}
+     ],
+     "cvars":{
+      "race":"Goblin",
+      "languages":"Common, Goblin",
+      "senses":"Darkvision 60 ft."
+      }
+    },
+    {
+     "name":"halfling mark of healing house jorasco",
+     "counters":[
+      {"name":"Cure Wounds","reset":"long","level":1,"use":"racecast 'cure wounds' [-t target]"},
+      {"name":"Lesser Restoration","reset":"long","level":3,"use":"racecast 'lesser restoration' [-t target]"}
+     ],
+     "cvars":{
+      "race":"Mark of Healing Halfling",
+      "speed":"25 ft.",
+      "languages":"Common, Halfling",
+      "size":"Small"
+     }
+    },
+    {
+     "name":"halfling mark of hospitality house ghallanda",
+     "counters":[
+      {"name":"Purify Food and Drink","reset":"long","level":1,"use":"racecast 'purify food and drink'"},
+      {"name":"Unseen Servant","reset":"long","level":3,"use":"racecast 'unseen servant'"}
+     ],
+     "cvars":{
+      "race":"Mark of Hospitality Halfling",
+      "speed":"25 ft.",
+      "languages":"Common, Halfling",
+      "size":"Small"
+     }
+    },
+    {
+     "name":"half-elf mark of detection house medani",
+     "counters":[
+      {"name":"Detect Magic","reset":"long","level":1,"use":"racecast 'detect magic'"},
+      {"name":"Detect Poison and Disease","reset":"long","level":1,"use":"racecast 'detect poison and disease'"},
+      {"name":"See Invisibility","reset":"long","level":3,"use":"racecast 'see invisibility'"}
+     ],
+     "cvars":{
+      "race":"Mark of Detection Half-Elf",
+      "languages":"Common, Elvish| one extra language of your choice",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"half-elf mark of storm house lyrandar",
+     "counters":[
+      {"name":"Gust of Wind","reset":"long","level":3,"use":"racecast 'Gust of Wind' [-t target]"}
+     ],
+     "cvars":{
+      "race":"Mark of Storm Half-Elf",
+      "speed":"30 ft., swim 30 ft.",
+      "resist":"Lightning",
+      "languages":"Common, Elvish| one extra language of your choice",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"half-orc mark of finding house tharashk",
+     "counters":[
+      {"name":"Hunter's Mark","reset":"long","level":1,"use":"racecast \\\"hunter's mark\\\" -t <target>"},
+      {"name":"Locate Object","reset":"long","level":1,"use":"racecast 'locate object'"}
+     ],
+     "cvars":{
+      "race":"Mark of Finding Half-Orc",
+      "languages":"Common, Goblin",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"hobgoblin",
+     "counters":[
+      {"name":"Saving Face","reset":"short","level":1,"use":"use hobgoblinFace  -n <# of allies>"}
+     ],
+     "cvars":{
+      "race":"Hobgoblin",
+      "languages":"Common, Goblin",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"human mark of finding house tharashk",
+     "counters":[
+      {"name":"Hunter's Mark","reset":"long","level":1,"use":"racecast \\\"hunter's mark\\\" -t <target>"},
+      {"name":"Locate Object","reset":"long","level":1,"use":"racecast 'locate object'"}
+     ],
+     "cvars":{
+      "race":"Mark of Finding Human",
+      "senses":"Darkvision 60 ft.",
+      "languages":"Common, Goblin"
+     }
+    },
+    {
+     "name":"human mark of handling house vadalis",
+     "counters":[
+      {"name":"Animal Friendship","reset":"short","level":1,"use":"racecast \\\"Animal Friendship\\\" [-t target]"},
+      {"name":"Speak with Animals","reset":"short","level":1,"use":"racecast \\\"Speak with Animals\\\""}
+     ],
+     "cvars":{
+      "race":"Mark of Handling Human",
+      "languages":"Common| one extra language of your choice"
+     }
+    },
+    {
+     "name":"human mark of making house cannith",
+     "counters":[
+      {"name":"Magic Weapon","reset":"long","level":1,"use":"racecast 'magic weapon'"}
+     ],
+     "cvars":{
+      "race":"Mark of Making Human",
+      "languages":"Common| one extra language of your choice"
+     }
+    },
+    {
+     "name":"human mark of passage house orien",
+     "counters":[
+      {"name":"Misty Step","reset":"long","level":1,"use":"racecast 'misty step'"}
+     ],
+     "cvars":{
+      "race":"Mark of Passage Human",
+      "speed":"35 ft.",
+      "languages":"Common| one extra language of your choice"
+     }
+    },
+    {
+     "name":"human mark of sentinel house deneith",
+     "counters":[
+      {"name":"Shield","reset":"short","level":1,"use":"racecast Shield [-di damageIncoming#]"},
+      {"name":"Vigilant Guardian","reset":"long","level":1,"use":"use something I haven't made yet because it's a stupid ability to automate."}
+     ],
+     "cvars":{
+      "race":"Mark of Sentinel Human",
+      "languages":"Common| one extra language of your choice"
+     }
+    },
+    {
+     "name":"kalashtar",
+     "cvars":{
+      "race":"Kalashtar",
+      "languages":"Common, Quori| one extra language of your choice"
+     }
+    },
+    {
+     "name":"orc",
+     "cvars":{
+      "race":"Orc",
+      "languages":"Common, Orc",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"shifter beasthide",
+     "counters":[
+      {"name":"Shifting","reset":"short","level":1,"use":"use shifterBeasthide"}
+     ],
+     "cvars":{
+      "race":"Beasthide Shifter",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"shifter longtooth",
+     "counters":[
+      {"name":"Shifting","reset":"short","level":1,"use":"use shifterLongtooth"}
+     ],
+     "cvars":{
+      "race":"Longtooth Shifter",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"shifter swiftstride",
+     "counters":[
+      {"name":"Shifting","reset":"short","level":1,"use":"use shifterSwiftstride"}
+     ],
+     "cvars":{
+      "race":"Swiftstride Shifter",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"shifter wildhunt",
+     "counters":[
+      {"name":"Shifting","reset":"short","level":1,"use":"use shifterWildhunt"},
+      {"name":"Mark the Scent","reset":"short","level":1,"use":"use shifterScent [-t target]"}
+     ],
+     "cvars":{
+      "race":"Wildhunt Shifter",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"warforged",
+     "cvars":{
+      "race":"Warforged",
+      "resist":"Poison",
+      "cimmune":"Disease",
+      "languages":"Common| one extra language of your choice"
+     }
+    },
+    {
+     "name":"changeling wge",
+     "counters":[
+      {"name":"Unsettling Visage","reset":"short","level":1,"use":"use changelingVisage -t <target>"}
+     ],
+     "cvars":{
+      "race":"Changeling (WGE)",
+      "languages":"Common| two extra languages of your choice"
+     }
+    },
+    {
+     "name":"dwarf house kundarak mark of warding wge",
+     "counters":[
+      {"name":"Arcane Lock","reset":"long","level":3,"use":"racecast 'Arcane Lock'"}
+     ],
+     "cvars":{
+      "race":"Mark of Warding Dwarf (WGE)",
+      "speed":"25 ft.",
+      "resist":"Poison",
+      "languages":"Common, Dwarvish",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"elf mark of shadow house phiarlan thuranni wge",
+     "counters":[
+      {"name":"Slip Into Shadow","reset":"short","level":1,"use":"use shadowSlip"}
+     ],
+     "cvars":{
+      "race":"Mark of Shadow Elf (WGE)",
+      "languages":"Common, Elvish",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"gnome mark of scribing house sivis wge",
+     "counters":[
+      {"name":"Comprehend Languages","reset":"long","level":1,"use":"racecast 'Comprehend Languages'"}
+     ],
+     "cvars":{
+      "race":"Mark of Scribing Gnome (WGE)",
+      "speed":"25 ft.",
+      "languages":"Common, Gnomish| one extra language of your choice",
+      "size":"Small",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"halfling mark of healing house jorasco wge",
+     "counters":[
+      {"name":"Healing Touch","reset":"short","level":1,"use":"use healingTouch -t <target> -n <hitDieSize#>` e.g. `!use healingTouch -t Croebh -n 10"}
+     ],
+     "cvars":{
+      "race":"Mark of Healing Halfling (WGE)",
+      "speed":"25 ft.",
+      "languages":"Common, Halfling",
+      "size":"Small"
+     }
+    },
+    {
+     "name":"halfling mark of hospitality house ghallanda wge",
+     "cvars":{
+      "race":"Mark of Hospitality Halfling (WGE)",
+      "speed":"25 ft.",
+      "languages":"Common, Halfling",
+      "size":"Small"
+     }
+    },
+    {
+     "name":"half-elf mark of detection house medani wge",
+     "cvars":{
+      "race":"Mark of Detection Half-Elf (WGE)",
+      "languages":"Common, Elvish",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"half-elf mark of storm house lyrandar wge",
+     "counters":[
+      {"name":"Gust of Wind","reset":"long","level":3,"use":"racecast 'Gust of Wind' [-t target]"}
+     ],
+     "cvars":{
+      "race":"Mark of Storm Half-Elf (WGE)",
+      "speed":"30 ft., swim 30 ft.",
+      "resist":"Lightning",
+      "languages":"Common, Elvish",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"half-orc mark of finding house tharashk wge",
+     "counters":[
+      {"name":"Imprint Prey","reset":"short","level":1,"use":"use findingImprint -t <target>"}
+     ],
+     "cvars":{
+      "race":"Mark of Finding Half-Orc (WGE)",
+      "languages":"Common, Goblin",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"human mark of finding house tharashk wge",
+     "counters":[
+      {"name":"Imprint Prey","reset":"short","level":1,"use":"use findingImprint -t <target>"}
+     ],
+     "cvars":{
+      "race":"Mark of Finding Human (WGE)",
+      "senses":"Darkvision 60 ft.",
+      "languages":"Common, Goblin"
+     }
+    },
+    {
+     "name":"human mark of handling house vadalis wge",
+     "counters":[
+      {"name":"Animal Friendship","reset":"short","level":1,"use":"racecast \"Animal Friendship\" [-t target]"}
+     ],
+     "cvars":{
+      "race":"Mark of Handling Human (WGE)",
+      "languages":"Common| one extra language of your choice"
+     }
+    },
+    {
+     "name":"human mark of making house cannith wge",
+     "counters":[
+      {"name":"Spellsmith","reset":"long","level":1,"use":"use makingSSArmor -t <target>` or `!use makingSSWeapon -t <target>"}
+     ],
+     "cvars":{
+      "race":"Mark of Making Human (WGE)",
+      "languages":"Common| one extra language of your choice"
+     }
+    },
+    {
+     "name":"human mark of passage house orien wge",
+     "counters":[
+      {"name":"Shared Passage","reset":"long","level":1,"use":"use passageShared"}
+     ],
+     "cvars":{
+      "race":"Mark of Passage Human (WGE)",
+      "speed":"40 ft.",
+      "languages":"Common| one extra language of your choice"
+     }
+    },
+    {
+     "name":"human mark of sentinel house deneith wge",
+     "counters":[
+      {"name":"Shield","reset":"short","level":1,"use":"racecast Shield [-di damageIncoming#]"}
+     ],
+     "cvars":{
+      "race":"Mark of Sentinel Human (WGE)",
+      "languages":"Common| one extra language of your choice"
+     }
+    },
+    {
+     "name":"kalashtar wge",
+     "cvars":{
+      "race":"Kalashtar (WGE)",
+      "languages":"Common, Quori| one extra language of your choice"
+     }
+    },
+    {
+     "name":"shifter beasthide wge",
+     "counters":[
+      {"name":"Shifting","reset":"short","level":1,"use":"use shifterBeasthide"}
+     ],
+     "cvars":{
+      "race":"Beasthide Shifter (WGE)",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"shifter longtooth wge",
+     "counters":[
+      {"name":"Shifting","reset":"short","level":1,"use":"use shifterLongtooth"}
+     ],
+     "cvars":{
+      "race":"Longtooth Shifter (WGE)",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"shifter swiftstride wge",
+     "counters":[
+      {"name":"Shifting","reset":"short","level":1,"use":"use shifterSwiftstride"}
+     ],
+     "cvars":{
+      "race":"Swiftstride Shifter (WGE)",
+      "speed":"35 ft.","senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"shifter wildhunt wge",
+     "counters":[
+      {"name":"Shifting","reset":"short","level":1,"use":"use shifterWildhunt"},
+      {"name":"Mark the Scent","reset":"short","level":1,"use":"use shifterScent [-t target]"}
+     ],
+     "cvars":{
+      "race":"Wildhunt Shifter (WGE)",
+      "senses":"Darkvision 60 ft."
+     }
+    },
+    {
+     "name":"warforged envoy wge",
+     "cvars":{
+      "race":"Envoy Warforged (WGE)",
+      "resist":"Poison",
+      "cimmune":"Disease",
+      "languages":"Common"
+     }
+    },
+    {
+     "name":"warforged juggernaut wge",
+     "cvars": {
+      "race":"Juggernaut Warforged (WGE)",
+      "resist":"Poison",
+      "cimmune":"Disease",
+      "languages":"Common"
+     }
+    },
+    {
+     "name":"warforged skirmisher wge",
+     "cvars":{
+      "race":"Skirmisher Warforged (WGE)",
+      "speed":"35 ft.",
+      "resist":"Poison",
+      "cimmune":"Disease",
+      "languages":"Common"
+     }
+    },
+    {
+     "name":"centaur",
+     "cvars":{
+      "race":"Centaur",
+      "speed":"40 ft.",
+      "languages":"Common, Sylvan",
+      "creatureType":"Fey"
+     }
+    },
+    {
+     "name":"loxodon",
+     "cvars":{
+      "race":"Loxodon",
+      "languages":"Common, Loxodon"
+     }
+    },
+    {
+     "name":"minotaur",
+     "atwill":{
+      "feature":"Hammering Horns",
+      "use":"use minotaurHorns [-t target]"
+     },
+     "cvars":{
+      "race":"Minotaur",
+      "languages":"Common, Minotaur"
+     }
+    },
+    {
+     "name":"simic hybrid manta glide carapace grappling appendages",
+     "cvars":{
+      "race":"Simic Hybrid",
+      "senses":"Darkvision 60 ft.",
+      "languages":"Common| your choice of Elvish or Vedalken"
+     }
+    },
+    {
+     "name":"simic hybrid nimble climber carapace grappling appendages",
+     "cvars":{
+      "race":"Simic Hybrid",
+      "speed":"30 ft., 30 ft. Climb",
+      "senses":"Darkvision 60 ft.",
+      "languages":"Common| your choice of Elvish or Vedalken"
+     }
+    },
+    {
+     "name":"simic hybrid underwater adaptation carapace grappling appendages",
+     "cvars":{
+      "race":"Simic Hybrid",
+      "speed":"30 ft., 30 ft. Swim",
+      "senses":"Darkvision 60 ft.",
+      "languages":"Common| your choice of Elvish or Vedalken"
+     }
+    },
+    {
+     "name":"simic hybrid acid spit manta glide",
+     "counters":[
+      {"name":"Acid Spit","reset":"long","level":5,"use":"use simicSpit [-t target]"}
+     ],
+     "cvars":{
+      "race":"Simic Hybrid",
+      "senses":"Darkvision 60 ft.",
+      "languages":"Common| your choice of Elvish or Vedalken"
+     }
+    },
+    {
+     "name":"simic hybrid acid spit nimble climber",
+     "s":"hybrid acid nimble climber",
+     "counters":[
+      {"name":"Acid Spit","reset":"long","level":5,"use":"use simicSpit [-t target]"}
+     ],
+     "cvars":{
+      "race":"Simic Hybrid",
+      "speed":"30 ft., 30 ft. Climb",
+      "senses":"Darkvision 60 ft.",
+      "languages":"Common| your choice of Elvish or Vedalken"
+     }
+    },
+    {
+     "name":"simic hybrid acid spit underwater adaptation",
+     "counters":[
+      {"name":"Acid Spit","reset":"long","level":5,"use":"use simicSpit [-t target]"}
+     ],
+     "cvars":{
+      "race":"Simic Hybrid",
+      "speed":"30 ft., 30 ft. Swim",
+      "senses":"Darkvision 60 ft.",
+      "languages":"Common| your choice of Elvish or Vedalken"
+     }
+    },
+    {
+     "name":"vedalken",
+     "cvars":{
+      "race":"Vedalken",
+      "languages":"Common, Vedalken| one extra language of your choice"
+     }
+    },
+    {
+     "name":"locathah",
+     "cvars":{
+      "race":"Locathah",
+      "speed":"30 ft., 30 ft. Swim",
+      "languages":"Common, Aquan"
+     }
+    },
+    {
+     "name":"tortle",
+     "cvars":{
+      "race":"Tortle",
+      "languages":"Common, Aquan"
+     }
+    },
+    {
+     "name":"grung",
+     "cvars":{
+      "race":"Grung",
+      "size":"Small",
+      "speed":"25 ft.",
+      "immune":"poison",
+      "languages":"Grung"
+     }
+    },
+    {
+     "name":"verdan",
+     "cvars":{
+      "race":"Verdan",
+      "size":"Small$5$Medium",
+      "languages":"Common, Goblin"
+     }
+    },
+    {
+     "name":"leonin",
+     "counters":[
+      {"name":"Daunting Roar","reset":"short","level":1,"use":"use leoninRoar [-t target1] [-t target2] [etc.]"}
+     ],
+     "cvars":{
+      "race":"Leonin",
+      "speed":"35 ft.",
+      "languages":"Common, Leonin"
+     }
+    },
+    {
+     "name":"satyr",
+     "cvars":{
+      "race":"Satyr",
+      "speed":"35 ft.",
+      "creatureType":"Fey",
+      "languages":"Common, Sylvan"
+     }
+    }
+   ]

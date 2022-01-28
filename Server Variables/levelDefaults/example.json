@@ -1,0 +1,36 @@
+!gvar create [
+ {
+  "Class":"Scaryman",
+  "hitDie":"d12",
+  "subclassLevel":3,
+  "counters":[
+   {
+    "name":"Fury",
+    "level":1,
+    "value":[2,2,3,3,3,4,4,4,4,4,4,5,5,5,5,5,6,6,6,6],
+    "reset":"long",
+    "display":"bubble",
+    "classLevel":"ScarymanLevel"
+   }
+  ]
+ },
+ {
+  "Class":"Scaryman",
+  "subclass":"Ant Central Guardian",
+  "counters":[
+   {
+    "name":"Consult the Tunnels",
+    "level":10,
+    "value":1,
+    "reset":"short",
+    "display":"bubble",
+    "classLevel":"ScarymanLevel"
+   }
+  ]
+ },
+ {
+  "Class":"Scaryman",
+  "subclass":"Battlescarer",
+  "counters":[]
+ }
+]

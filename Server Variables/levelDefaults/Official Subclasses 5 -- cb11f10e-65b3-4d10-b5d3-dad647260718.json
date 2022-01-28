@@ -1,0 +1,81 @@
+[
+    {
+        "Class": "Fighter",
+        "subclass": "Echo Knight",
+        "counters": [{
+                "name": "Unleash Incarnation",
+                "level": 3,
+                "value": "constitutionMod",
+                "reset": "long",
+                "display": "bubble",
+                "classLevel": "FighterLevel"
+            },
+            {
+                "name": "Shadow Martyr",
+                "level": 10,
+                "value": 1,
+                "reset": "long",
+                "display": "bubble",
+                "classLevel": "FighterLevel"
+            },
+            {
+                "name": "Reclaim Potential",
+                "level": 15,
+                "value": "constitutionMod",
+                "reset": "long",
+                "display": "bubble",
+                "classLevel": "FighterLevel"
+            }
+        ]
+    },
+    {
+        "Class": "Wizard",
+        "subclass": "Chronurgy",
+        "counters": [{
+                "name": "Chronal Shift",
+                "level": 2,
+                "value": 2,
+                "reset": "long",
+                "display": "bubble",
+                "classLevel": "WizardLevel"
+            },
+            {
+                "name": "Momentary Statis",
+                "level": 6,
+                "value": "intelligenceMod",
+                "reset": "long",
+                "display": "bubble",
+                "classLevel": "WizardLevel"
+            },
+            {
+                "name": "Arcane Abeyance",
+                "level": 10,
+                "value": 1,
+                "reset": "long",
+                "display": "bubble",
+                "classLevel": "WizardLevel"
+            }
+        ]
+    },
+    {
+        "Class": "Wizard",
+        "subclass": "Graviturgist",
+        "counters": [{
+                "name": "Violent Attraction",
+                "level": 10,
+                "value": "intelligenceMod",
+                "reset": "long",
+                "display": "bubble",
+                "classLevel": "WizardLevel"
+            },
+            {
+                "name": "Event Horizon",
+                "level": 14,
+                "value": 1,
+                "reset": "long",
+                "display": "bubble",
+                "classLevel": "WizardLevel"
+            }
+        ]
+    }
+]

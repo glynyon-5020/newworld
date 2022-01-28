@@ -1,0 +1,3 @@
+# Islands
+
+Dragonsmoke Archipelago is composed of dozens of discovered islands and many more that remain uncharted. These islands give way to a variety of life -- from those that inhabit the frigid glacial northern islands to those of the desert and coastal ones. Monsters of every imaginable shape and size can be discovered on these shores. As an example, dragons claim some islands home. The Feywild has broken through its veil to touch others; and still yet, the Nine Hells influence has not gone unnoticed...s
