@@ -199,5 +199,65 @@
             "use": "use unlucky"
         }
     ]
+  },
+  {
+    "name": "revised lizardfolk poison dusk",
+    "featureResources": "1554f314-bd66-4e35-9acf-7b6266811e7a",
+    "cvars": {
+      "race": "Poison Dusk Lizardfolk",
+      "speed": "30 ft.",
+      "languages": "Common, Draconic",
+      "size": "Medium",
+      "creatureType": "Humanoid",
+      "resist": "",
+      "immune": "",
+      "cimmune": "",
+      "vuln": "",
+      "senses": ""
+    },
+    "counters": [
+        {
+            "name": "Racial Poison",
+            "reset": "long",
+            "level": 1,
+            "value": "proficiencyBonus",
+            "display": "bubble",
+            "desc": "As part of a long rest you can distill poison from your own glands. You gain a number of doses of racial poison equal to half your proficiency bonus (rounded down) which last 24 hours before drying. You can use a dose of this poison to coat one slashing or piercing weapon or up to three pieces of ammunition. Applying the poison takes an action.",
+            "use": "use racial_poison (or create a snippet)"
+        }
+    ]
+  },
+  {
+    "name": "revised lizardfolk blackscale",
+    "featureResources": "1554f314-bd66-4e35-9acf-7b6266811e7a",
+    "cvars": {
+      "race": "Blackscale Lizardfolk",
+      "speed": "30 ft.",
+      "languages": "Common, Draconic",
+      "size": "Medium",
+      "creatureType": "Humanoid",
+      "resist": "Acid",
+      "immune": "",
+      "cimmune": "",
+      "vuln": "",
+      "senses": "Darkvision (60ft)"
+    }
+  },
+  {
+    "name": "revised lizardfolk sharptooth",
+    "featureResources": "1554f314-bd66-4e35-9acf-7b6266811e7a",
+    "cvars": {
+      "race": "Sharptooth Lizardfolk",
+      "speed": "30 ft., Swim 30ft.",
+      "languages": "Common, Draconic",
+      "size": "Medium",
+      "creatureType": "Humanoid",
+      "resist": "",
+      "immune": "",
+      "cimmune": "",
+      "vuln": "",
+      "senses": ""
+    },
+    "counters": [{"name":"Hungry Jaws","reset":"short","level":1,"use":"use lizardJaws` after you successfully hit with your `!attack"}]
   }
 ]
