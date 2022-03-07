@@ -23,5 +23,8 @@
     "effectdesc": "A creature hit by the poisoned weapon or ammunition takes an additional 1d{scale} poison damage.\n - Once applied, the poison retains potency for 1 minute before drying. Hitting a target with a weapon or piece of ammunition that is poisoned this way will not remove the poison before that minute has passed.", 
     "h": "true", 
     "fail": "true"
+  },
+    "lizardJaws":{
+     "title":"[name] uses their Hungry Jaws feature!","desc":"As a bonus action, you make a special attack with your bite. If the attack hits, it deals its normal damage, and you gain temporary hit points (minimum of 1) equal to your Constitution modifier, and you can't use this trait again until you finish a short or long rest.","thp":"{constitutionMod}","fail":"True","cc":"Hungry Jaws"
   }
 }
