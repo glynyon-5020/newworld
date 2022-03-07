@@ -19,7 +19,7 @@
     "desc": "As part of a long rest you can distill poison from your own glands. You gain a number of doses of racial poison equal to half your proficiency bonus (rounded down) which last 24 hours before drying. You can use a dose of this poison to coat one slashing or piercing weapon or up to three pieces of ammunition. Applying the poison takes an action.\n\nA creature hit by the poisoned weapon or ammunition takes an additional 1d4 poison damage. This damage increases to 1d6 when you reach 6th level, and to 1d8 when you reach 14th level. Once applied, the poison retains potency for 1 minute before drying. Hitting a target with a weapon or piece of ammunition that is poisoned this way will not remove the poison before that minute has passed.",
     "cc": "Racial Poison",
     "d": "1d{scale}[poison]",
-    "scale": "{'1':4,'6':6,'14':8"
+    "scale": "{'1':4,'6':6,'14':8}"
 
   }
 }
