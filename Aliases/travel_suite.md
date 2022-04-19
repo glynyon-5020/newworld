@@ -14,7 +14,7 @@ The aliases are:
 
 The `!travel` alias takes in two parameters. One is required. 
 
-The first parameter is a `number` equal to your base speed. For most characters, this would be `35`. You may also enter `spring` `summer` `fall` or `winter` after your speed. It would look like this:
+The first parameter is a `number` equal to your base speed. For most characters, this would be `30`. You may also enter `spring` `summer` `fall` or `winter` after your speed. It would look like this:
 
 `!travel 30 fall`
 
