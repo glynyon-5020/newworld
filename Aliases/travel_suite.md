@@ -3,11 +3,11 @@
 There are three aliases we use (for now) for traveling. We know they aren't the easiest to use. Note that they will be updated in the future to make it easier to manage in discord. Until then, know that we are all hobbyists and don't get paid for making these. :D We'll get to it when we can.
 
 The aliases are:
-- !travel ## "Season Type"
+- `!travel ## "Season Type"`
     - This alias shows how far you can travel per day and takes into account some weather factors you can use for roleplay 
-- !terrain "Terrain Type"
+- `!terrain "Terrain Type"`
     - This alias prints out the terrain features you encounter in your journeys. A lot of stuff can happen!
-- !progress ## ## ##
+- `!progress ## ## ##`
     - This alias is useful for tracking your distance traveled and determine how much you may still travel today!
 
 ## !travel
@@ -20,7 +20,7 @@ The first parameter is a `number` equal to your base speed. For most characters,
 
 ## !terrain
 
-The `!terrain` alias is full lots of goodies. This is required to find dungeon/settlement/lair waypoints. 
+The `!terrain` alias is full of lots of goodies. This is required to find dungeon/settlement/lair waypoints. 
 
 It takes in one parameter from the following list:
 - arctic 
