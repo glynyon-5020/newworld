@@ -108,6 +108,33 @@
     ]
   },
   {
+    "Class": "Siverain",
+    "subclass": "Matua Ka'i",
+    "counters": []
+  },
+  {
+    "Class": "Siverain",
+    "subclass": "Zeino'sha",
+    "counters": [
+      {
+        "name": "Grit and Determination",
+        "level": 6,
+        "value": 1,
+        "reset": "long",
+        "display": "bubble",
+        "classLevel": "SiverainLevel"
+      },
+      {
+        "name": "Telekinetic Mastery",
+        "level": 17,
+        "value": "proficiencyBonus",
+        "reset": "long",
+        "display": "bubble",
+        "classLevel": "SiverainLevel"
+      }
+    ]
+  },
+  {
     "Class": "Savant",
     "hitDie": "d8",
     "subClassLevel": 3,
@@ -329,188 +356,6 @@
             "display": "bubble",
             "classLevel": "WizardLevel",
             "desc": "**Using a Resonant.** You can use one Resonant when you cast a wizard spell with a spell slot and speak the true name of one creature targeted by the spell. Speaking the name is part of casting the spell. You can use Resonants a number of times equal to half of your wizard level (round down), and you regain all expended uses when you finish a long rest."
-        }
-    ]
-  },
-  {
-    "Class": "Expert4",
-    "hitDie": "d4",
-    "subClassLevel": 0,
-    "counters": []
-  },
-  {
-    "Class": "Expert6",
-    "hitDie": "d6",
-    "subClassLevel": 0,
-    "counters": []
-  },
-  {
-    "Class": "Expert8",
-    "hitDie": "d8",
-    "subClassLevel": 0,
-    "counters": []
-  },
-  {
-    "Class": "Expert10",
-    "hitDie": "d10",
-    "subClassLevel": 0,
-    "counters": []
-  },
-  {
-    "Class": "Spellcaster4",
-    "hitDie": "d4",
-    "subClassLevel": 0,
-    "counters": []
-  },
-  {
-    "Class": "Spellcaster6",
-    "hitDie": "d6",
-    "subClassLevel": 0,
-    "counters": []
-  },
-  {
-    "Class": "Spellcaster8",
-    "hitDie": "d8",
-    "subClassLevel": 0,
-    "counters": []
-  },
-  {
-    "Class": "Spellcaster10",
-    "hitDie": "d10",
-    "subClassLevel": 0,
-    "counters": []
-  },
-  {
-    "Class": "Warrior4",
-    "hitDie": "d4",
-    "subClassLevel": 0,
-    "counters": [
-        {
-            "name": "Second Wind",
-            "level": 2,
-            "value": [0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2],
-            "reset": "short",
-            "display": "bubble",
-            "classLevel": "Warrior4Level",
-            "desc": "The sidekick can use a bonus action on its turn to regain hit points equal to 1d10 + its level in this class. Once it uses this feature, it must finish a short or long restr before it can use it again.\n\nThe sidekick can use this feature twice between rests starting at 20th level."
-        },
-        {
-            "name": "Indomitable",
-            "level": 11,
-            "value": [0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,2,2,2],
-            "reset": "long",
-            "display": "bubble",
-            "classLevel": "Warrior4Level",
-            "desc": "The sidekick can reroll a saving throw that it fails, but it must use the new roll. When it uses this feature, it can't use the feature again until it finishes a long rest.\n\nThe sidekick can use this feature twice between long rests starting at 18th level."
-        }
-    ]
-  },
-  {
-    "Class": "Warrior6",
-    "hitDie": "d6",
-    "subClassLevel": 0,
-    "counters": [
-        {
-            "name": "Second Wind",
-            "level": 2,
-            "value": [0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2],
-            "reset": "short",
-            "display": "bubble",
-            "classLevel": "Warrior6Level",
-            "desc": "The sidekick can use a bonus action on its turn to regain hit points equal to 1d10 + its level in this class. Once it uses this feature, it must finish a short or long restr before it can use it again.\n\nThe sidekick can use this feature twice between rests starting at 20th level."
-        },
-        {
-            "name": "Indomitable",
-            "level": 11,
-            "value": [0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,2,2,2],
-            "reset": "long",
-            "display": "bubble",
-            "classLevel": "Warrior6Level",
-            "desc": "The sidekick can reroll a saving throw that it fails, but it must use the new roll. When it uses this feature, it can't use the feature again until it finishes a long rest.\n\nThe sidekick can use this feature twice between long rests starting at 18th level."
-        }
-    ]
-  },
-  {
-    "Class": "Warrior8",
-    "hitDie": "d8",
-    "subClassLevel": 0,
-    "counters": [
-        {
-            "name": "Second Wind",
-            "level": 2,
-            "value": [0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2],
-            "reset": "short",
-            "display": "bubble",
-            "classLevel": "Warrior8Level",
-            "desc": "The sidekick can use a bonus action on its turn to regain hit points equal to 1d10 + its level in this class. Once it uses this feature, it must finish a short or long restr before it can use it again.\n\nThe sidekick can use this feature twice between rests starting at 20th level."
-        },
-        {
-            "name": "Indomitable",
-            "level": 11,
-            "value": [0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,2,2,2],
-            "reset": "long",
-            "display": "bubble",
-            "classLevel": "Warrior8Level",
-            "desc": "The sidekick can reroll a saving throw that it fails, but it must use the new roll. When it uses this feature, it can't use the feature again until it finishes a long rest.\n\nThe sidekick can use this feature twice between long rests starting at 18th level."
-        }
-    ]
-  },
-  {
-    "Class": "Warrior10",
-    "hitDie": "d10",
-    "subClassLevel": 0,
-    "counters": [
-        {
-            "name": "Second Wind",
-            "level": 2,
-            "value": [0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2],
-            "reset": "short",
-            "display": "bubble",
-            "classLevel": "Warrior10Level",
-            "desc": "The sidekick can use a bonus action on its turn to regain hit points equal to 1d10 + its level in this class. Once it uses this feature, it must finish a short or long restr before it can use it again.\n\nThe sidekick can use this feature twice between rests starting at 20th level."
-        },
-        {
-            "name": "Indomitable",
-            "level": 11,
-            "value": [0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,2,2,2],
-            "reset": "long",
-            "display": "bubble",
-            "classLevel": "Warrior10Level",
-            "desc": "The sidekick can reroll a saving throw that it fails, but it must use the new roll. When it uses this feature, it can't use the feature again until it finishes a long rest.\n\nThe sidekick can use this feature twice between long rests starting at 18th level."
-        }
-    ]
-  },
-  {
-    "Class": "Rager",
-    "hitDie": "d12",
-    "subClassLevel": 0,
-    "counters": [
-        {
-            "name":"Rage",
-            "level":1,
-            "value":[1,1,1,1,2,2,2,2,2,3,3,3,3,3,4,4,4,4,4,4],
-            "reset":"long",
-            "display":"bubble",
-            "classLevel":"RagerLevel",
-            "desc":"On your turn, you can enter a rage as a bonus action.\n\nWhile raging, you gain the following benefits if you aren't wearing heavy armor:\n\n- You have advantage on Strength checks and Strength saving throws.\n- When you make a melee weapon attack using Strength, you gain a bonus to the damage roll that increases as you gain levels as a rager, as shown in the Rage Damage column of the Rager table.\n- You have resistance to bludgeoning, piercing, and slashing damage.\n\nIf you are able to cast spells, you can't cast them or concentrate on them while raging.\n\nYour rage lasts for 1 minute. It ends early if you are knocked unconscious or if your turn ends and you haven't attacked a hostile creature since your last turn or taken damage since then. You can also end your rage on your turn as a bonus action.\n\nOnce you have raged the number of times shown for your barbarian level in the Rages column of the [Rager](https://discord.com/channels/733841578174447717/759173152689094666/869991000356057100) table, you must finish a long rest before you can rage again."
-        },
-        {
-            "name": "Second Wind",
-            "level": 2,
-            "value": [0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2],
-            "reset": "short",
-            "display": "bubble",
-            "classLevel": "Warrior10Level",
-            "desc": "The sidekick can use a bonus action on its turn to regain hit points equal to 1d10 + its level in this class. Once it uses this feature, it must finish a short or long restr before it can use it again.\n\nThe sidekick can use this feature twice between rests starting at 20th level."
-        },
-        {
-            "name": "Indomitable",
-            "level": 11,
-            "value": [0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,2,2,2],
-            "reset": "long",
-            "display": "bubble",
-            "classLevel": "Warrior10Level",
-            "desc": "The sidekick can reroll a saving throw that it fails, but it must use the new roll. When it uses this feature, it can't use the feature again until it finishes a long rest.\n\nThe sidekick can use this feature twice between long rests starting at 18th level."
         }
     ]
   },
