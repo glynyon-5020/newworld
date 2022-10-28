@@ -135,6 +135,55 @@
     ]
   },
   {
+    "Class": "Siverain",
+    "subclass": "Mando'ah",
+    "counters": []
+  },
+  {
+    "Class": "Siverain",
+    "subclass": "Jensa'ari",
+    "counters": [
+      {
+        "name": "Shadow Strike",
+        "level": 3,
+        "value": "proficiencyBonus",
+        "reset": "long",
+        "type": "bubble",
+        "classLevel": "SiverainLevel"
+      },
+      {
+        "name": "Remnant Echoes",
+        "level": 11,
+        "value": 1,
+        "reset": "long",
+        "type": "bubble",
+        "classLevel": "SiverainLevel"
+      },
+      {
+        "name": "Death Stroke",
+        "level": 17,
+        "value": "floor(proficiencyBonus/2)",
+        "reset": "long",
+        "type": "bubble",
+        "classLevel": "SiverainLevel"
+      }
+    ]
+  },
+  {
+    "Class": "Paladin",
+    "subclass": "Oath of Nobility",
+    "counters": [
+      {
+        "name": "Aura of Majesty",
+        "level": 7,
+        "value": "proficiencyBonus",
+        "reset": "long",
+        "display": "bubble",
+        "classLevel": "PaladinLevel"
+      }
+    ]
+  },
+  {
     "Class": "Savant",
     "hitDie": "d8",
     "subClassLevel": 3,
