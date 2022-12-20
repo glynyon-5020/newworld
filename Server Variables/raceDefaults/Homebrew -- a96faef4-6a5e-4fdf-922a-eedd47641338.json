@@ -1,13 +1,29 @@
 [
   {
+    "name":"Dragonsmoke Archipelago New World Races",
+    "featureResources":"1554f314-bd66-4e35-9acf-7b6266811e7a",
+    "counters":[],
+    "cvars":{
+      "race":"",
+      "speed":"30 ft.",
+      "languages":"Common",
+      "size":"Medium",
+      "creatureType":"Humanoid",
+      "resist":"",
+      "immune":"",
+      "cimmune":"",
+      "vuln":"",
+      "senses":""
+    }
+  },
+  {
     "name": "awakened undead skeleton",
-    "featureResources": "1554f314-bd66-4e35-9acf-7b6266811e7a",
     "counters": [
       {
         "name": "Bone Pile",
         "reset": "long",
         "level": 1,
-        "desc": "use bonePile"
+        "use": "use bonePile"
       }
     ],
     "cvars": {
@@ -16,22 +32,19 @@
       "languages": "Common| one from past life",
       "size": "Medium",
       "creatureType": "Undead",
-      "resist": "",
       "immune": "Poison",
       "cimmune": "Poisoned",
-      "vuln": "",
       "senses": "Darkvision 60 ft."
     }
   },
   {
     "name": "awakened undead revenant",
-    "featureResources": "1554f314-bd66-4e35-9acf-7b6266811e7a",
     "counters": [
       {
         "name": "Unnatural Vitality",
         "reset": "long",
         "level": 1,
-        "desc": "use unnaturalVitality"
+        "use": "use unnaturalVitality"
       }
     ],
     "cvars": {
@@ -41,31 +54,27 @@
       "size": "Medium",
       "creatureType": "Undead",
       "resist": "Poison",
-      "immune": "",
-      "cimmune": "",
-      "vuln": "",
       "senses": "Darkvision 60 ft."
     }
   },
   {
     "name": "awakened undead ghost",
-    "featureResources": "1554f314-bd66-4e35-9acf-7b6266811e7a",
     "counters": [
       {
         "name": "Ghostly Magic",
         "reset": "long",
         "level": 1,
         "value": 3,
-        "display": "bubble",
-        "desc": "Your soul is especially powerful, and you may channel its power into a semblance of mortal magic. Each day, you may cast up to three of the following spells: [blink](https://www.dndbeyond.com/spells/blink), [catapult](https://www.dndbeyond.com/spells/catapult), [charm person](https://www.dndbeyond.com/spells/charm-person), [fear](https://www.dndbeyond.com/spells/fear), and [invisibility](https://www.dndbeyond.com/spells/invisibility) (self only). You regain the ability to cast these spells when you finish a long rest. When you take this feat, choose either Charisma or Wisdom as your spellcasting ability for these spells, and you cast any spells gained by this feat at their lowest possible levels.\nuse ghostlyMagic"
+        "desc": "Your soul is especially powerful, and you may channel its power into a semblance of mortal magic. Each day, you may cast up to three of the following spells: [blink](https://www.dndbeyond.com/spells/blink), [catapult](https://www.dndbeyond.com/spells/catapult), [charm person](https://www.dndbeyond.com/spells/charm-person), [fear](https://www.dndbeyond.com/spells/fear), and [invisibility](https://www.dndbeyond.com/spells/invisibility) (self only). You regain the ability to cast these spells when you finish a long rest. When you take this feat, choose either Charisma or Wisdom as your spellcasting ability for these spells, and you cast any spells gained by this feat at their lowest possible levels.",
+        "use": "use ghostlyMagic"
       },
       {
         "name": "Incorporeal Stride",
         "reset": "short",
         "level": 1,
         "value": 1,
-        "display": "bubble",
-        "desc": "You can move through other creatures and objects other than walls (or ceilings) as if they were difficult terrain. Once per short rest, you may pass through up to 10 feet of solid walls (treating them as difficult terrain) as a part of your move action. You take 1d10 force damage if you end your turn inside an object or a wall, and are immediately ejected to the closest available space if within a wall.\nuse incorporealStride"
+        "desc": "You can move through other creatures and objects other than walls (or ceilings) as if they were difficult terrain. Once per short rest, you may pass through up to 10 feet of solid walls (treating them as difficult terrain) as a part of your move action. You take 1d10 force damage if you end your turn inside an object or a wall, and are immediately ejected to the closest available space if within a wall.",
+        "use": "`use incorporealStride"
       }
     ],
     "cvars": {
@@ -74,24 +83,9 @@
       "languages": "Common| one from past life",
       "size": "Medium",
       "creatureType": "Undead",
-      "resist": "",
       "immune": "Poison",
       "cimmune": "Poisoned",
-      "vuln": "",
       "senses": "Darkvision 60 ft."
-    }
-  },
-  {
-    "name": "Boggle",
-    "counters": [],
-    "cvars": {
-      "race": "Boggle",
-      "resist": "Fire",
-      "languages": "Sylvan",
-      "speed": "30ft., Climb 30ft.",
-      "creatureType": "Fey",
-      "senses": "Darkvision 60ft.",
-      "size": "Small"
     }
   },
   {
@@ -122,8 +116,8 @@
             "reset": "long",
             "level": 1,
             "value": 1,
-            "display": "bubble",
-            "desc": "Once per long rest, you can instill allies with a sense of vigor. Those within a 15-foot range of you gain temporary hit points equal to your Charisma modifier for 8 hours.\nuse nobleLeadership"
+            "desc": "Once per long rest, you can instill allies with a sense of vigor. Those within a 15-foot range of you gain temporary hit points equal to your Charisma modifier for 8 hours.",
+            "use": "use nobleLeadership"
         }
     ]
   },
@@ -156,8 +150,8 @@
             "reset": "long",
             "level": 1,
             "value": 1,
-            "display": "bubble",
-            "desc": "Calico fur is the rarest of all Felis lineages. The legends say that all of the black furred Felis' luck went to the calico. Once per day, when you roll an attack roll, ability check, or saving throw, you may choose to reroll. You must accept the reroll.\nuse goodFortune"
+            "desc": "Calico fur is the rarest of all Felis lineages. The legends say that all of the black furred Felis' luck went to the calico. Once per day, when you roll an attack roll, ability check, or saving throw, you may choose to reroll. You must accept the reroll.",
+            "use": "use goodFortune"
         }
     ]
   },
@@ -190,25 +184,19 @@
             "reset": "long",
             "level": 1,
             "value": 1,
-            "display": "bubble",
-            "desc": "Once per long rest as a reaction you can cast your bad luck onto an enemy, giving them disadvantage on one attack or saving throw.\nuse unlucky"
+            "desc": "Once per long rest as a reaction you can cast your bad luck onto an enemy, giving them disadvantage on one attack or saving throw.",
+            "use": "use unlucky"
         }
     ]
   },
   {
     "name": "revised lizardfolk poison dusk",
-    "featureResources": "1554f314-bd66-4e35-9acf-7b6266811e7a",
     "cvars": {
       "race": "Poison Dusk Lizardfolk",
       "speed": "30 ft.",
       "languages": "Common, Draconic",
       "size": "Medium",
-      "creatureType": "Humanoid",
-      "resist": "",
-      "immune": "",
-      "cimmune": "",
-      "vuln": "",
-      "senses": ""
+      "creatureType": "Humanoid"
     },
     "counters": [
         {
@@ -216,14 +204,13 @@
             "reset": "long",
             "level": 1,
             "value": "proficiencyBonus",
-            "display": "bubble",
-            "desc": "As part of a long rest you can distill poison from your own glands. You gain a number of doses of racial poison equal to half your proficiency bonus (rounded down) which last 24 hours before drying. You can use a dose of this poison to coat one slashing or piercing weapon or up to three pieces of ammunition. Applying the poison takes an action.\nuse racialPoison (or create a snippet)"
+            "desc": "As part of a long rest you can distill poison from your own glands. You gain a number of doses of racial poison equal to half your proficiency bonus (rounded down) which last 24 hours before drying. You can use a dose of this poison to coat one slashing or piercing weapon or up to three pieces of ammunition. Applying the poison takes an action.",
+            "use": "use racialPoison (or create a snippet)"
         }
     ]
   },
   {
     "name": "revised lizardfolk blackscale",
-    "featureResources": "1554f314-bd66-4e35-9acf-7b6266811e7a",
     "cvars": {
       "race": "Blackscale Lizardfolk",
       "speed": "30 ft.",
@@ -231,26 +218,17 @@
       "size": "Medium",
       "creatureType": "Humanoid",
       "resist": "Acid",
-      "immune": "",
-      "cimmune": "",
-      "vuln": "",
       "senses": "Darkvision (60ft)"
     }
   },
   {
     "name": "revised lizardfolk sharptooth",
-    "featureResources": "1554f314-bd66-4e35-9acf-7b6266811e7a",
     "cvars": {
       "race": "Sharptooth Lizardfolk",
       "speed": "30 ft., Swim 30ft.",
       "languages": "Common, Draconic",
       "size": "Medium",
-      "creatureType": "Humanoid",
-      "resist": "",
-      "immune": "",
-      "cimmune": "",
-      "vuln": "",
-      "senses": ""
+      "creatureType": "Humanoid"
     },
     "counters": [
       {
@@ -264,18 +242,12 @@
   },
   {
     "name": "kender",
-    "featureResources": "1554f314-bd66-4e35-9acf-7b6266811e7a",
     "cvars": {
       "race": "Kender",
       "speed": "30 ft.",
       "languages": "Common, one other language of your choice",
       "size": "Small",
-      "creatureType": "Humanoid",
-      "resist": "",
-      "immune": "",
-      "cimmune": "",
-      "vuln": "",
-      "senses": ""
+      "creatureType": "Humanoid"
     },
     "counters": [
       {
@@ -283,7 +255,6 @@
         "reset":"long",
         "level":1,
         "value":1,
-        "display":"bubble",
         "desc":"You have advantage on saving throws you make to avoid or end the frightened condition on yourself. When you fail a saving throw to avoid or end the frightened condition on yourself, you can choose to succeed instead. Once you succeed on a saving throw in this way, you can’t do so again until you finish a long rest."
       },
       {
@@ -291,8 +262,8 @@
         "reset":"long",
         "level":1,
         "value":"proficiencyBonus",
-        "display":"bubble",
-        "desc": "You have an extraordinary ability to fluster creatures. As a bonus action, you can unleash a string of provoking words at a creature within 60 feet of yourself that can hear and understand you. The target must succeed on a Wisdom saving throw, or it has disadvantage on attack rolls against targets other than you until the start of your next turn. The DC equals 8 + your proficiency bonus + your Intelligence, Wisdom, or Charisma modifier (choose when you select this race).\n\nYou can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.\nUse !tauntCharisma or replace Charisma with your chosen taunt ability."
+        "desc": "You have an extraordinary ability to fluster creatures. As a bonus action, you can unleash a string of provoking words at a creature within 60 feet of yourself that can hear and understand you. The target must succeed on a Wisdom saving throw, or it has disadvantage on attack rolls against targets other than you until the start of your next turn. The DC equals 8 + your proficiency bonus + your Intelligence, Wisdom, or Charisma modifier (choose when you select this race).\n\nYou can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
+        "use": "use !tauntCharisma or replace Charisma with your chosen taunt ability."
       }
     ]
   }
