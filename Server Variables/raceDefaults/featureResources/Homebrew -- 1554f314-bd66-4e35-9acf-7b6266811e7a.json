@@ -24,7 +24,32 @@
     "h": "true", 
     "fail": "true"
   },
-    "lizardJaws":{
+  "lizardJaws":{
      "title":"[name] uses their Hungry Jaws feature!","desc":"As a bonus action, you make a special attack with your bite. If the attack hits, it deals its normal damage, and you gain temporary hit points (minimum of 1) equal to your Constitution modifier, and you can't use this trait again until you finish a short or long rest.","thp":"{constitutionMod}","fail":"True","cc":"Hungry Jaws"
+  },
+  "tauntCharisma":{
+      "dc": "8+{proficiencyBonus}+{charismaMod}",
+      "title":"[name] uses their Taunt feature!",
+      "desc": "You have an extraordinary ability to fluster creatures. As a bonus action, you can unleash a string of provoking words at a creature within 60 feet of yourself that can hear and understand you. The target must succeed on a Wisdom saving throw, or it has disadvantage on attack rolls against targets other than you until the start of your next turn. The DC equals 8 + your proficiency bonus + your Intelligence, Wisdom, or Charisma modifier (choose when you select this race).\n\nYou can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
+      "save": "wis",
+      "effect": "Taunted||1",
+      "effectdesc": "The target disadvantage on attack rolls against targets other than [name] until the start of [name]'s next turn."
+  },
+  "tauntWisdom":{
+      "dc": "8+{proficiencyBonus}+{wisdomMod}",
+      "title":"[name] uses their Taunt feature!",
+      "desc": "You have an extraordinary ability to fluster creatures. As a bonus action, you can unleash a string of provoking words at a creature within 60 feet of yourself that can hear and understand you. The target must succeed on a Wisdom saving throw, or it has disadvantage on attack rolls against targets other than you until the start of your next turn. The DC equals 8 + your proficiency bonus + your Intelligence, Wisdom, or Charisma modifier (choose when you select this race).\n\nYou can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
+      "save": "wis",
+      "effect": "Taunted||1",
+      "effectdesc": "The target disadvantage on attack rolls against targets other than [name] until the start of [name]'s next turn."
+  },
+  "tauntIntelligence":{
+      "dc": "8+{proficiencyBonus}+{intelligenceMod}",
+      "title":"[name] uses their Taunt feature!",
+      "desc": "You have an extraordinary ability to fluster creatures. As a bonus action, you can unleash a string of provoking words at a creature within 60 feet of yourself that can hear and understand you. The target must succeed on a Wisdom saving throw, or it has disadvantage on attack rolls against targets other than you until the start of your next turn. The DC equals 8 + your proficiency bonus + your Intelligence, Wisdom, or Charisma modifier (choose when you select this race).\n\nYou can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
+      "save": "wis",
+      "effect": "Taunted||1",
+      "effectdesc": "The target disadvantage on attack rolls against targets other than [name] until the start of [name]'s next turn."
   }
+  
 }
