@@ -594,7 +594,7 @@
       {
        "name":"Lunar Embodiment",
        "level":1,
-       "value":1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+       "value":[1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
        "reset":"long",
        "display":"bubble",
        "classLevel":"SorcererLevel",
