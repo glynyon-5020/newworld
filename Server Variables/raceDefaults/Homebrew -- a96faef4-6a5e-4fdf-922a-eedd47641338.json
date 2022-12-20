@@ -276,8 +276,23 @@
       "senses": ""
     },
     "counters": [
-      {"name":"Fearless","reset":"long","level":1,"value":1,"desc":"You have advantage on saving throws you make to avoid or end the frightened condition on yourself. When you fail a saving throw to avoid or end the frightened condition on yourself, you can choose to succeed instead. Once you succeed on a saving throw in this way, you can’t do so again until you finish a long rest."},
-      {"name":"Taunt","reset":"long","level":1,"value":"proficiencyBonus","desc": "You have an extraordinary ability to fluster creatures. As a bonus action, you can unleash a string of provoking words at a creature within 60 feet of yourself that can hear and understand you. The target must succeed on a Wisdom saving throw, or it has disadvantage on attack rolls against targets other than you until the start of your next turn. The DC equals 8 + your proficiency bonus + your Intelligence, Wisdom, or Charisma modifier (choose when you select this race).\n\nYou can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.","use":"Use !tauntCharisma or replace Charisma with your chosen taunt ability."}
+      {
+        "name":"Fearless",
+        "reset":"long",
+        "level":1,
+        "value":1,
+        "display":"bubble",
+        "desc":"You have advantage on saving throws you make to avoid or end the frightened condition on yourself. When you fail a saving throw to avoid or end the frightened condition on yourself, you can choose to succeed instead. Once you succeed on a saving throw in this way, you can’t do so again until you finish a long rest."
+      },
+      {
+        "name":"Taunt",
+        "reset":"long",
+        "level":1,
+        "value":"proficiencyBonus",
+        "display":"bubble",
+        "desc": "You have an extraordinary ability to fluster creatures. As a bonus action, you can unleash a string of provoking words at a creature within 60 feet of yourself that can hear and understand you. The target must succeed on a Wisdom saving throw, or it has disadvantage on attack rolls against targets other than you until the start of your next turn. The DC equals 8 + your proficiency bonus + your Intelligence, Wisdom, or Charisma modifier (choose when you select this race).\n\nYou can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
+        "use":"Use !tauntCharisma or replace Charisma with your chosen taunt ability."
+      }
     ]
   }
 ]
